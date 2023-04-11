@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/addr2line.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/ar.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -139,11 +139,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/g++.exe"
+			"type" : "STRING",
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/gcc-ar.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/gcc-ranlib.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -283,7 +283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/gcc.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -299,7 +299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/dlltool.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -807,7 +807,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/ld.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -919,7 +919,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/nm.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -947,7 +947,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/objcopy.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -963,7 +963,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/objdump.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/ranlib.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1211,7 +1211,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/readelf.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1431,7 +1431,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/TDM-GCC-64/bin/strip.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",

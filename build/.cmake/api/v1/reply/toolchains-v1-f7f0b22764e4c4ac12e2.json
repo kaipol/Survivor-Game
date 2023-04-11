@@ -10,31 +10,28 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include",
-						"C:/TDM-GCC-64/include",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed",
-						"C:/TDM-GCC-64/x86_64-w64-mingw32/include"
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+						"D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0",
-						"C:/TDM-GCC-64/lib/gcc",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0",
+						"D:/Qt/Tools/mingw1120_64/lib/gcc",
 						"E:/SDL2/x86_64-w64-mingw32/lib",
-						"C:/TDM-GCC-64/x86_64-w64-mingw32/lib",
-						"C:/TDM-GCC-64/lib"
+						"D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib",
+						"D:/Qt/Tools/mingw1120_64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/libstdc++.a",
+						"stdc++",
 						"mingw32",
+						"gcc_s",
 						"gcc",
-						"pthread",
-						"gcc",
-						"kernel32",
 						"moldname",
 						"mingwex",
 						"kernel32",
@@ -43,18 +40,17 @@
 						"shell32",
 						"user32",
 						"kernel32",
+						"iconv",
 						"mingw32",
+						"gcc_s",
 						"gcc",
-						"pthread",
-						"gcc",
-						"kernel32",
 						"moldname",
 						"mingwex",
 						"kernel32"
 					]
 				},
-				"path" : "C:/TDM-GCC-64/bin/g++.exe",
-				"version" : "10.3.0"
+				"path" : "D:/Qt/Tools/mingw1120_64/bin/g++.exe",
+				"version" : "11.2.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

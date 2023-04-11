@@ -191,7 +191,7 @@ build Survivor-Game_autogen/timestamp Survivor-Game_autogen/mocs_compilation.cpp
 #############################################
 # Phony custom command for CMakeFiles\Survivor-Game_autogen_timestamp_deps
 
-build CMakeFiles/Survivor-Game_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Survivor-Game_autogen_timestamp_deps: phony D$:/Qt/6.4.1/mingw_64/./bin/uic.exe D$:/Qt/6.4.1/mingw_64/./bin/moc.exe D$:/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.4.1/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Survivor-Game_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Survivor-Game_autogen_timestamp_deps: phony D$:/Qt/6.4.1/mingw_64/./bin/uic.exe D$:/Qt/6.4.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.4.1/mingw_64/./bin/moc.exe D$:/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################

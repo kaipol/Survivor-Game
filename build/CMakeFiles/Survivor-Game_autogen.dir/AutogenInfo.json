@@ -289,6 +289,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Survivor-Game/Survivor-Game/AL-1S.h",
+			"MU",
+			"EWIEGA46WW/moc_AL-1S.cpp",
+			null
+		],
+		[
 			"E:/Survivor-Game/Survivor-Game/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -365,6 +371,8 @@
 	"SETTINGS_FILE" : "E:/Survivor-Game/build/CMakeFiles/Survivor-Game_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "E:/Survivor-Game/Survivor-Game/AL-1S.cpp", "MU", null ],
+		[ "E:/Survivor-Game/Survivor-Game/Save_data.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game/main.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game/mainwindow.cpp", "MU", null ]
 	],

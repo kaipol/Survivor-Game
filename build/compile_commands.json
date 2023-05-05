@@ -13,5 +13,15 @@
   "directory": "E:/Survivor-Game/build",
   "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IE:/Survivor-Game/build/Survivor-Game_autogen/include -isystem D:/Qt/6.4.1/mingw_64/include/QtCore -isystem D:/Qt/6.4.1/mingw_64/include -isystem D:/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.4.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.4.1/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Survivor-Game.dir\\mainwindow.cpp.obj -c E:\\Survivor-Game\\Survivor-Game\\mainwindow.cpp",
   "file": "E:\\Survivor-Game\\Survivor-Game\\mainwindow.cpp"
+},
+{
+  "directory": "E:/Survivor-Game/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IE:/Survivor-Game/build/Survivor-Game_autogen/include -isystem D:/Qt/6.4.1/mingw_64/include/QtCore -isystem D:/Qt/6.4.1/mingw_64/include -isystem D:/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.4.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.4.1/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Survivor-Game.dir\\Save_data.cpp.obj -c E:\\Survivor-Game\\Survivor-Game\\Save_data.cpp",
+  "file": "E:\\Survivor-Game\\Survivor-Game\\Save_data.cpp"
+},
+{
+  "directory": "E:/Survivor-Game/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IE:/Survivor-Game/build/Survivor-Game_autogen/include -isystem D:/Qt/6.4.1/mingw_64/include/QtCore -isystem D:/Qt/6.4.1/mingw_64/include -isystem D:/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.4.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.4.1/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Survivor-Game.dir\\AL-1S.cpp.obj -c E:\\Survivor-Game\\Survivor-Game\\AL-1S.cpp",
+  "file": "E:\\Survivor-Game\\Survivor-Game\\AL-1S.cpp"
 }
 ]

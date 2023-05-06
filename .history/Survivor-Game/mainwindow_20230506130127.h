@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QVector>
 #include <QLabel>
+#include <QMediaPlayer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui

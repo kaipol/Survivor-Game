@@ -9,16 +9,15 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools )
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
-target_link_libraries(mytarget PRIVATE Qt6::Multimedia)
 
 set(TS_FILES Survivor-Game_zh_CN.ts)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.h
         mainwindow.cpp
+        mainwindow.h
         mainwindow.ui
         Save_data.cpp
         Characters.h

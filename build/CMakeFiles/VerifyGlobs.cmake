@@ -41,9 +41,8 @@ endif()
 # _directory_contents at D:/Qt/6.4.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "E:/Survivor-Game/Survivor-Game/*.cpp")
 set(OLD_GLOB
-  "E:/Survivor-Game/Survivor-Game/AL-1S.cpp"
+  "E:/Survivor-Game/Survivor-Game/Characters.cpp"
   "E:/Survivor-Game/Survivor-Game/Save_data.cpp"
-  "E:/Survivor-Game/Survivor-Game/dist/jsoncpp.cpp"
   "E:/Survivor-Game/Survivor-Game/main.cpp"
   "E:/Survivor-Game/Survivor-Game/mainwindow.cpp"
   )
@@ -64,10 +63,8 @@ endif()
 # _directory_contents at D:/Qt/6.4.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "E:/Survivor-Game/Survivor-Game/*.h")
 set(OLD_GLOB
-  "E:/Survivor-Game/Survivor-Game/AL-1S.h"
+  "E:/Survivor-Game/Survivor-Game/Characters.h"
   "E:/Survivor-Game/Survivor-Game/Shop.h"
-  "E:/Survivor-Game/Survivor-Game/dist/json/json-forwards.h"
-  "E:/Survivor-Game/Survivor-Game/dist/json/json.h"
   "E:/Survivor-Game/Survivor-Game/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

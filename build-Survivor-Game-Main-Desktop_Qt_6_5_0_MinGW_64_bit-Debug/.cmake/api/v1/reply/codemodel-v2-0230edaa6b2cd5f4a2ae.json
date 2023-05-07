@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fd65832ea3acdf7aef4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Survivor-Game-Main",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Survivor-Game-Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Survivor-Game-Main-Debug-7cc02318da3ceb79258c.json",
+					"name" : "Survivor-Game-Main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Survivor-Game-Main_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Survivor-Game-Main_autogen-Debug-43b77e93a37022603551.json",
+					"name" : "Survivor-Game-Main_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Survivor-Game-Main_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Survivor-Game-Main_autogen_timestamp_deps-Debug-1692784f08f4d3d5ec2c.json",
+					"name" : "Survivor-Game-Main_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+		"source" : "E:/Survivor-Game/Survivor-Game-Main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

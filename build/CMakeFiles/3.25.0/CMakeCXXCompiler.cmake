@@ -79,5 +79,5 @@ endif()
 
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/Qt/Tools/mingw1120_64/lib/gcc;E:/SDL2/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1120_64/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/Qt/Tools/mingw1120_64/lib/gcc;D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1120_64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -1,13 +1,10 @@
 # ninja log v5
-904	2130	7050072017939040	CMakeFiles/Survivor-Game.dir/Survivor-Game_autogen/mocs_compilation.cpp.obj	63747ab1bbc99ded
-107	904	7050072004508936	Survivor-Game_autogen/mocs_compilation.cpp	f3bfc219c2d528d6
-9	91	0	E:/Survivor-Game/build/CMakeFiles/cmake.verify_globs	a8d79159a247f4fc
-107	904	7050072004508936	Survivor-Game_autogen/timestamp	f3bfc219c2d528d6
-107	904	7050072004508936	E:/Survivor-Game/build/Survivor-Game_autogen/timestamp	f3bfc219c2d528d6
-945	1213	7050072008759001	CMakeFiles/Survivor-Game.dir/AL-1S.cpp.obj	e94f87a795e96414
-107	904	7050072004508936	E:/Survivor-Game/build/Survivor-Game_autogen/mocs_compilation.cpp	f3bfc219c2d528d6
-489	1716	7048947301711899	CMakeFiles/Survivor-Game.dir/main.cpp.obj	b23d0f6410727ae
-918	2178	7050072018419003	CMakeFiles/Survivor-Game.dir/mainwindow.cpp.obj	f5cdec853bc0a22
-2190	2575	7050072022358207	Survivor-Game.exe	ab0f825844a9a4b
-87	896	7050526376590423	build.ninja	faaff93cc06af780
-932	2189	7050072018538999	CMakeFiles/Survivor-Game.dir/Save_data.cpp.obj	865691acc7af67a2
+12	860	7050700100966953	Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
+2139	2325	7050700116697120	Survivor-Game-Main.exe	76bbdb152d26bf47
+12	860	7050700100966953	Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
+12	860	7050700100966953	E:/Survivor-Game/build/Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
+12	860	7050700100966953	E:/Survivor-Game/build/Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
+1094	2373	7050699599993646	CMakeFiles/Survivor-Game-Main.dir/Characters.cpp.obj	ceef778f505521a8
+860	2117	7050700114656963	CMakeFiles/Survivor-Game-Main.dir/Survivor-Game-Main_autogen/mocs_compilation.cpp.obj	d53780f0ef6b2f94
+873	2109	7050700114566960	CMakeFiles/Survivor-Game-Main.dir/main.cpp.obj	224a80b2c58094ad
+886	2139	7050700114876949	CMakeFiles/Survivor-Game-Main.dir/mainwindow.cpp.obj	ab361c50f90bda97

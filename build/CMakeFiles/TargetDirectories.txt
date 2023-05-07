@@ -1,9 +1,9 @@
-E:/Survivor-Game/build/CMakeFiles/Survivor-Game.dir
+E:/Survivor-Game/build/CMakeFiles/Survivor-Game-Main.dir
 E:/Survivor-Game/build/CMakeFiles/edit_cache.dir
 E:/Survivor-Game/build/CMakeFiles/rebuild_cache.dir
 E:/Survivor-Game/build/CMakeFiles/list_install_components.dir
 E:/Survivor-Game/build/CMakeFiles/install.dir
 E:/Survivor-Game/build/CMakeFiles/install/local.dir
 E:/Survivor-Game/build/CMakeFiles/install/strip.dir
-E:/Survivor-Game/build/CMakeFiles/Survivor-Game_autogen_timestamp_deps.dir
-E:/Survivor-Game/build/CMakeFiles/Survivor-Game_autogen.dir
+E:/Survivor-Game/build/CMakeFiles/Survivor-Game-Main_autogen_timestamp_deps.dir
+E:/Survivor-Game/build/CMakeFiles/Survivor-Game-Main_autogen.dir

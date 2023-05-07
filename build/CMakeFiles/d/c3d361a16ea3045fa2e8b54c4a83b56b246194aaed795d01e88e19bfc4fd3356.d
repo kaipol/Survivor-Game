@@ -30,7 +30,14 @@ Survivor-Game-Main_autogen/timestamp: \
   C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows-windres.cmake \
   C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QPair \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QString \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -43,6 +50,7 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -58,9 +66,13 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qeventloop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qflags.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
@@ -77,15 +89,18 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlogging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmalloc.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmath.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetacontainer.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qmetaobject.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -94,6 +109,7 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
@@ -125,6 +141,7 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -142,40 +159,71 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QImage \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/QMediaPlayer \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qaudio.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qstackedwidget.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -311,6 +359,48 @@ Survivor-Game-Main_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake \
@@ -557,7 +647,12 @@ Survivor-Game-Main_autogen/timestamp: \
   E:/Survivor-Game/Survivor-Game-Main/CMakeLists.txt \
   E:/Survivor-Game/Survivor-Game-Main/Characters.cpp \
   E:/Survivor-Game/Survivor-Game-Main/Characters.h \
-  E:/Survivor-Game/Survivor-Game-Main/Shop.h \
+  E:/Survivor-Game/Survivor-Game-Main/FightInterface.cpp \
+  E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/MainInterface.cpp \
+  E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.cpp \
+  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h \
   E:/Survivor-Game/Survivor-Game-Main/main.cpp \
   E:/Survivor-Game/Survivor-Game-Main/mainwindow.cpp \
   E:/Survivor-Game/Survivor-Game-Main/mainwindow.h \

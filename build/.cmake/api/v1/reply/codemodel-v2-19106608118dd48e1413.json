@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-f4295b6cf46504283317.json",
+					"jsonFile" : "directory-.-Release-fd65832ea3acdf7aef4b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Survivor-Game-Main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Survivor-Game-Main-Release-3aef6a27d845ebae091b.json",
+					"jsonFile" : "target-Survivor-Game-Main-Release-7a746738da87a865b4ac.json",
 					"name" : "Survivor-Game-Main",
 					"projectIndex" : 0
 				},

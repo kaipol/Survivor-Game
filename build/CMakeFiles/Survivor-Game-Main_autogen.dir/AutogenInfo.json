@@ -368,9 +368,21 @@
 			null
 		],
 		[
-			"E:/Survivor-Game/Survivor-Game-Main/Shop.h",
+			"E:/Survivor-Game/Survivor-Game-Main/FightInterface.h",
 			"MU",
-			"EWIEGA46WW/moc_Shop.cpp",
+			"EWIEGA46WW/moc_FightInterface.cpp",
+			null
+		],
+		[
+			"E:/Survivor-Game/Survivor-Game-Main/MainInterface.h",
+			"MU",
+			"EWIEGA46WW/moc_MainInterface.cpp",
+			null
+		],
+		[
+			"E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h",
+			"MU",
+			"EWIEGA46WW/moc_SelectHeroes.cpp",
 			null
 		],
 		[
@@ -455,6 +467,9 @@
 	"SOURCES" : 
 	[
 		[ "E:/Survivor-Game/Survivor-Game-Main/Characters.cpp", "MU", null ],
+		[ "E:/Survivor-Game/Survivor-Game-Main/FightInterface.cpp", "MU", null ],
+		[ "E:/Survivor-Game/Survivor-Game-Main/MainInterface.cpp", "MU", null ],
+		[ "E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game-Main/main.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game-Main/mainwindow.cpp", "MU", null ]
 	],

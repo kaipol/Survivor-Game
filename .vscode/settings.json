@@ -1,8 +1,7 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/Survivor-Game",
+    "cmake.sourceDirectory": "E:/Survivor-Game/Survivor-Game-Main",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
-        "qapplication": "cpp",
-        "qmainwindow": "cpp"
+        "qmediaplayer": "cpp"
     }
 }

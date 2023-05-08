@@ -20,6 +20,7 @@ public:
     Heroes(QString name);
     QPixmap *get_hero_pic();     // 获取英雄图片
     QPixmap *get_hero_bullets(); // 获取子弹图片
+    int get_hero_blood();        // 获取英雄血量
 };
 
 class Monsters
@@ -39,4 +40,5 @@ public:
     Monsters(QString);
     QPixmap *get_monster_pic();     // 获取怪物图片
     QPixmap *get_monster_bullets(); // 获取子弹图片
+    int get_monster_blood();        // 获取怪物血量
 };

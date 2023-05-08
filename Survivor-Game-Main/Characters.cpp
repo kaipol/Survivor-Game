@@ -7,7 +7,7 @@ Heroes::Heroes(QString name)
         blood = 20;
         attack = 5;
         hero_pic = new QPixmap("../src/Sprite/MCH_PL001_001.png");
-        hero_bullets = new QPixmap("../src/Sprite\/AL-1S-bullet.png");
+        hero_bullets = new QPixmap("../src/Sprite/AL-1S-bullet.png");
     }
     else if (name == "NOA")
     {
@@ -24,6 +24,10 @@ QPixmap *Heroes::get_hero_pic()
 QPixmap *Heroes::get_hero_bullets()
 {
     return hero_bullets;
+}
+int Heroes::get_hero_blood()
+{
+    return blood;
 }
 
 Monsters::Monsters(QString name)
@@ -47,4 +51,8 @@ QPixmap *Monsters::get_monster_pic()
 QPixmap *Monsters::get_monster_bullets()
 {
     return monster_bullets;
+}
+int Monsters::get_monster_blood()
+{
+    return blood;
 }

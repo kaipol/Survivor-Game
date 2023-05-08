@@ -1,10 +1,5 @@
 {
-    "cmake.sourceDirectory": "E:/Survivor-Game/Survivor-Game-Main",
+    "cmake.sourceDirectory": "D:/Survivor-Game/Survivor-Game-Main",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "files.associations": {
-        "qmediaplayer": "cpp",
-        "qmainwindow": "cpp",
-        "qvector": "cpp",
-        "new": "cpp"
-    }
+    "cmake.generator": "MinGW Makefiles"
 }

@@ -37,4 +37,6 @@ public slots:
 
 public:
     Monsters(QString);
+    QPixmap *get_monster_pic();     // 获取怪物图片
+    QPixmap *get_monster_bullets(); // 获取子弹图片
 };

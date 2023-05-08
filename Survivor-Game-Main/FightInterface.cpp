@@ -33,18 +33,18 @@ void FightInterface::paintEvent(QPaintEvent *event)
             }
         }
     }
-    pen.drawPixmap(hero_loc[0] * 100, 100 + hero_loc[1] * 70, 100, 70, *hero_pic); // 绘制英雄
+   // pen.drawPixmap(hero_loc[0] * 100, 100 + hero_loc[1] * 70, 100, 70, *hero_pic); // 绘制英雄
 }
 
 void FightInterface::Heroes_and_Monsters_init(QString name)
 {
     if (name == "AL-1S")
     {
-        Heroes *hero = new Heroes("AL-1S");
+        hero = new Heroes("AL-1S");
     }
     else if (name == "NOA")
     {
-        Heroes *hero = new Heroes("NOA");
+        hero = new Heroes("NOA");
     }
     hero_loc[0] = 0, hero_loc[1] = 0; // 英雄位置初始化
     MonstersNum = 3;

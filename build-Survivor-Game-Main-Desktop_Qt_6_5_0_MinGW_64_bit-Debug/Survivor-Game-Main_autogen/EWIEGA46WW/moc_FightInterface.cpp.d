@@ -1,7 +1,9 @@
 E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.cpp: E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Survivor-Game-Main_autogen/moc_predefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QMap \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QPair \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
@@ -125,6 +127,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
@@ -162,7 +165,6 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \

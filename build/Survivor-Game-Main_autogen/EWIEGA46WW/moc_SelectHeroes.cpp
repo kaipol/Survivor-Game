@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'selectheroes.h'
+** Meta object code from reading C++ file 'SelectHeroes.h'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../Survivor-Game-Main/selectheroes.h"
+#include "../../../Survivor-Game-Main/SelectHeroes.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 #include <memory>
 
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'selectheroes.h' doesn't include <QObject>."
+#error "The header file 'SelectHeroes.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.5.0. It"
 #error "cannot be used with the include files from this version of Qt."

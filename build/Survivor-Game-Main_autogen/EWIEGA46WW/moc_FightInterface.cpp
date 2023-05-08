@@ -49,11 +49,12 @@ static constexpr auto qt_meta_stringdata_CLASSFightInterfaceENDCLASS = QtMocHelp
     "name",
     "time_control",
     "game_fail",
-    "play_again"
+    "play_again",
+    "bullet_move"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t {
-    uint offsetsAndSizes[22];
+    uint offsetsAndSizes[24];
     char stringdata0[15];
     char stringdata1[19];
     char stringdata2[1];
@@ -65,6 +66,7 @@ struct qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t {
     char stringdata8[13];
     char stringdata9[10];
     char stringdata10[11];
+    char stringdata11[12];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -80,7 +82,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t qt_met
         QT_MOC_LITERAL(102, 4),  // "name"
         QT_MOC_LITERAL(107, 12),  // "time_control"
         QT_MOC_LITERAL(120, 9),  // "game_fail"
-        QT_MOC_LITERAL(130, 10)   // "play_again"
+        QT_MOC_LITERAL(130, 10),  // "play_again"
+        QT_MOC_LITERAL(141, 11)   // "bullet_move"
     },
     "FightInterface",
     "changeWidgetsignal",
@@ -92,7 +95,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t qt_met
     "name",
     "time_control",
     "game_fail",
-    "play_again"
+    "play_again",
+    "bullet_move"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -104,7 +108,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -112,15 +116,16 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   56,    2, 0x06,    1 /* Public */,
-       4,    0,   59,    2, 0x06,    3 /* Public */,
+       1,    1,   62,    2, 0x06,    1 /* Public */,
+       4,    0,   65,    2, 0x06,    3 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       5,    0,   60,    2, 0x0a,    4 /* Public */,
-       6,    1,   61,    2, 0x0a,    5 /* Public */,
-       8,    0,   64,    2, 0x0a,    7 /* Public */,
-       9,    0,   65,    2, 0x0a,    8 /* Public */,
-      10,    0,   66,    2, 0x0a,    9 /* Public */,
+       5,    0,   66,    2, 0x0a,    4 /* Public */,
+       6,    1,   67,    2, 0x0a,    5 /* Public */,
+       8,    0,   70,    2, 0x0a,    7 /* Public */,
+       9,    0,   71,    2, 0x0a,    8 /* Public */,
+      10,    0,   72,    2, 0x0a,    9 /* Public */,
+      11,    0,   73,    2, 0x0a,   10 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -129,6 +134,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString,    7,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -160,6 +166,8 @@ Q_CONSTINIT const QMetaObject FightInterface::staticMetaObject = { {
         // method 'game_fail'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'play_again'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'bullet_move'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -178,6 +186,7 @@ void FightInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 4: _t->time_control(); break;
         case 5: _t->game_fail(); break;
         case 6: _t->play_again(); break;
+        case 7: _t->bullet_move(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -218,13 +227,13 @@ int FightInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }

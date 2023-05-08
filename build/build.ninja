@@ -105,6 +105,14 @@ build CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: CXX_COMPILER__Su
   OBJECT_DIR = CMakeFiles\Survivor-Game-Main.dir
   OBJECT_FILE_DIR = CMakeFiles\Survivor-Game-Main.dir
 
+build CMakeFiles/Survivor-Game-Main.dir/GameEndInterface.cpp.obj: CXX_COMPILER__Survivor-Game-Main_Release E$:/Survivor-Game/Survivor-Game-Main/GameEndInterface.cpp || cmake_object_order_depends_target_Survivor-Game-Main
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Survivor-Game-Main.dir\GameEndInterface.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17
+  INCLUDES = -IE:/Survivor-Game/build/Survivor-Game-Main_autogen/include -isystem D:/Qt/6.5.0/mingw_64/include/QtCore -isystem D:/Qt/6.5.0/mingw_64/include -isystem D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.5.0/mingw_64/include/QtMultimedia -isystem D:/Qt/6.5.0/mingw_64/include/QtGui -isystem D:/Qt/6.5.0/mingw_64/include/QtNetwork -isystem D:/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\Survivor-Game-Main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Survivor-Game-Main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Survivor-Game-Main
@@ -113,7 +121,7 @@ build CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: CXX_COMPILER__Su
 #############################################
 # Link the executable Survivor-Game-Main.exe
 
-build Survivor-Game-Main.exe: CXX_EXECUTABLE_LINKER__Survivor-Game-Main_Release CMakeFiles/Survivor-Game-Main.dir/Survivor-Game-Main_autogen/mocs_compilation.cpp.obj CMakeFiles/Survivor-Game-Main.dir/main.cpp.obj CMakeFiles/Survivor-Game-Main.dir/mainwindow.cpp.obj CMakeFiles/Survivor-Game-Main.dir/Characters.cpp.obj CMakeFiles/Survivor-Game-Main.dir/MainInterface.cpp.obj CMakeFiles/Survivor-Game-Main.dir/SelectHeroes.cpp.obj CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj | D$:/Qt/6.5.0/mingw_64/lib/libQt6Multimedia.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Network.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.5.0/mingw_64/lib/libQt6EntryPoint.a || Survivor-Game-Main_autogen Survivor-Game-Main_autogen_timestamp_deps
+build Survivor-Game-Main.exe: CXX_EXECUTABLE_LINKER__Survivor-Game-Main_Release CMakeFiles/Survivor-Game-Main.dir/Survivor-Game-Main_autogen/mocs_compilation.cpp.obj CMakeFiles/Survivor-Game-Main.dir/main.cpp.obj CMakeFiles/Survivor-Game-Main.dir/mainwindow.cpp.obj CMakeFiles/Survivor-Game-Main.dir/Characters.cpp.obj CMakeFiles/Survivor-Game-Main.dir/MainInterface.cpp.obj CMakeFiles/Survivor-Game-Main.dir/SelectHeroes.cpp.obj CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj CMakeFiles/Survivor-Game-Main.dir/GameEndInterface.cpp.obj | D$:/Qt/6.5.0/mingw_64/lib/libQt6Multimedia.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Network.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.5.0/mingw_64/lib/libQt6EntryPoint.a || Survivor-Game-Main_autogen Survivor-Game-Main_autogen_timestamp_deps
   FLAGS = -O3 -DNDEBUG
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.5.0/mingw_64/lib/libQt6Multimedia.a  D:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.5.0/mingw_64/lib/libQt6Network.a  -lws2_32  D:/Qt/6.5.0/mingw_64/lib/libQt6Gui.a  D:/Qt/6.5.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.5.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ldcomp  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -216,7 +224,7 @@ build Survivor-Game-Main_autogen/timestamp Survivor-Game-Main_autogen/mocs_compi
 #############################################
 # Phony custom command for CMakeFiles\Survivor-Game-Main_autogen_timestamp_deps
 
-build CMakeFiles/Survivor-Game-Main_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Survivor-Game-Main_autogen_timestamp_deps: phony D$:/Qt/6.5.0/mingw_64/./bin/moc.exe D$:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.5.0/mingw_64/./bin/uic.exe D$:/Qt/6.5.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Multimedia.a
+build CMakeFiles/Survivor-Game-Main_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Survivor-Game-Main_autogen_timestamp_deps: phony D$:/Qt/6.5.0/mingw_64/./bin/moc.exe D$:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.5.0/mingw_64/lib/libQt6Multimedia.a D$:/Qt/6.5.0/mingw_64/./bin/uic.exe
 
 
 #############################################

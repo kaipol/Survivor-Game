@@ -34,7 +34,6 @@ public:
     void keyPressEvent(QKeyEvent *event);
 
     void Monsters_move(); // 怪物移动函数
-    void bullet_move();   // 子弹移动函数
     void game_end(int);   // 游戏结束
 
 public slots:

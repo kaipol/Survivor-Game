@@ -1,13 +1,13 @@
 # ninja log v5
-17	384	7052355478110113	Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
-1932	2135	7052355495580583	Survivor-Game-Main.exe	3adcd85474a67560
-17	384	7052355478110113	Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
-17	384	7052355478110113	E:/Survivor-Game/build/Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
-17	384	7052355478110113	E:/Survivor-Game/build/Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
-1065	2416	7052349087656684	CMakeFiles/Survivor-Game-Main.dir/Characters.cpp.obj	fdeb964f05c787b1
-1052	3062	7052354055322919	CMakeFiles/Survivor-Game-Main.dir/Survivor-Game-Main_autogen/mocs_compilation.cpp.obj	d7026d11fdeab917
-1066	2680	7052354051471750	CMakeFiles/Survivor-Game-Main.dir/main.cpp.obj	5baa58626db11ccf
-410	1809	7052355492359970	CMakeFiles/Survivor-Game-Main.dir/mainwindow.cpp.obj	c57bba6aa811603b
-1093	2744	7052354052141741	CMakeFiles/Survivor-Game-Main.dir/SelectHeroes.cpp.obj	cdac527afa4db99f
-1114	2660	7052332706055826	CMakeFiles/Survivor-Game-Main.dir/MainInterface.cpp.obj	f1d53f43fc086fdc
-424	1932	7052355493600809	CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj	7a7da18c0564d1bd
+19	1379	7052634144949805	Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
+4352	4730	7052634179595318	Survivor-Game-Main.exe	3adcd85474a67560
+19	1379	7052634144949805	Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
+19	1379	7052634144949805	E:/Survivor-Game/build/Survivor-Game-Main_autogen/mocs_compilation.cpp	64a95c317d99d17
+19	1379	7052634144949805	E:/Survivor-Game/build/Survivor-Game-Main_autogen/timestamp	64a95c317d99d17
+1424	2978	7052634162089478	CMakeFiles/Survivor-Game-Main.dir/Characters.cpp.obj	fdeb964f05c787b1
+1379	3593	7052634168279939	CMakeFiles/Survivor-Game-Main.dir/Survivor-Game-Main_autogen/mocs_compilation.cpp.obj	d7026d11fdeab917
+1394	3430	7052634166639426	CMakeFiles/Survivor-Game-Main.dir/main.cpp.obj	5baa58626db11ccf
+1409	3512	7052634167459458	CMakeFiles/Survivor-Game-Main.dir/mainwindow.cpp.obj	c57bba6aa811603b
+1455	3416	7052634166479429	CMakeFiles/Survivor-Game-Main.dir/SelectHeroes.cpp.obj	cdac527afa4db99f
+1439	3354	7052634165869688	CMakeFiles/Survivor-Game-Main.dir/MainInterface.cpp.obj	f1d53f43fc086fdc
+1469	4352	7052634175855542	CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj	7a7da18c0564d1bd

@@ -1,5 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/Survivor-Game/Survivor-Game-Main",
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "cmake.generator": "MinGW Makefiles"
+    "cmake.sourceDirectory": "E:/Survivor-Game/Survivor-Game-Main",
+    "C_Cpp.default.compilerPath": "C:\\TDM-GCC-64\\bin\\gcc.exe"
 }

@@ -1,13 +1,10 @@
 CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  D:\Survivor-Game\Survivor-Game-Main\FightInterface.cpp \
  D:\Survivor-Game\Survivor-Game-Main\FightInterface.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydatapointer.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydataops.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydata.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qpair.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qglobal.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -141,15 +138,57 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstringview.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydata.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qpair.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/string.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydatapointer.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydataops.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcontainertools_impl.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
@@ -190,16 +229,9 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -213,8 +245,6 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/align.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
@@ -222,38 +252,13 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
- C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qhashfunctions.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qstringview.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/stdarg.h \
@@ -266,6 +271,13 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qanystringview.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qutf8stringview.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qstringtokenizer.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qhashfunctions.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
@@ -274,36 +286,10 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qstringlist.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qstringmatcher.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qmetatype.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qmath.h \
@@ -319,47 +305,71 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobject_impl.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata_impl.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
@@ -380,7 +390,6 @@ CMakeFiles/Survivor-Game-Main.dir/FightInterface.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h \

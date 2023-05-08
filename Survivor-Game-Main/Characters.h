@@ -6,6 +6,7 @@
 #include <QPixmap>
 #include <QPair>
 
+
 class Heroes
 {
     QString name;
@@ -14,7 +15,7 @@ class Heroes
 
 protected:
     QPixmap *hero_pic;     // 英雄图片
-    QPixmap *hero_bullets; // 子弹
+    QPixmap *hero_bullets; // 子弹图片
 
 public:
     Heroes(QString name);
@@ -31,7 +32,7 @@ class Monsters
 
 protected:
     QPixmap *monster_pic;     // 怪物图片
-    QPixmap *monster_bullets; // 子弹
+    QPixmap *monster_bullets; // 子弹图片
 
 public slots:
     void set_monster_loc(int x, int y); // 设置怪物位置

@@ -37,10 +37,13 @@ D:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qeventloop.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
@@ -57,6 +60,7 @@ D:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   C:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
@@ -139,9 +143,12 @@ D:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
@@ -166,9 +173,11 @@ D:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   C:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \

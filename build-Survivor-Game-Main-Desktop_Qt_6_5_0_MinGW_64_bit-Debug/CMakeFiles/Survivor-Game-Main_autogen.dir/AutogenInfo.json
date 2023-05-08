@@ -440,6 +440,12 @@
 			null
 		],
 		[
+			"E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h",
+			"MU",
+			"EWIEGA46WW/moc_GameEndInterface.cpp",
+			null
+		],
+		[
 			"E:/Survivor-Game/Survivor-Game-Main/MainInterface.h",
 			"MU",
 			"EWIEGA46WW/moc_MainInterface.cpp",
@@ -533,6 +539,11 @@
 	[
 		[ "E:/Survivor-Game/Survivor-Game-Main/Characters.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game-Main/FightInterface.cpp", "MU", null ],
+		[
+			"E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.cpp",
+			"MU",
+			null
+		],
 		[ "E:/Survivor-Game/Survivor-Game-Main/MainInterface.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.cpp", "MU", null ],
 		[ "E:/Survivor-Game/Survivor-Game-Main/main.cpp", "MU", null ],

@@ -1,4 +1,10 @@
 {
     "cmake.sourceDirectory": "E:/Survivor-Game/Survivor-Game-Main",
-    "C_Cpp.default.compilerPath": "C:\\TDM-GCC-64\\bin\\gcc.exe"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "qmediaplayer": "cpp",
+        "qmainwindow": "cpp",
+        "qvector": "cpp",
+        "new": "cpp"
+    }
 }

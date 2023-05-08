@@ -4,6 +4,7 @@
     "files.associations": {
         "qmediaplayer": "cpp",
         "qmainwindow": "cpp",
-        "qvector": "cpp"
+        "qvector": "cpp",
+        "new": "cpp"
     }
 }

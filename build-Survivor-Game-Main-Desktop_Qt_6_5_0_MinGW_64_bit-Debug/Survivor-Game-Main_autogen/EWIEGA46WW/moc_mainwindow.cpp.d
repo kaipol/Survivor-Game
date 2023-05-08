@@ -2,12 +2,12 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Survivor-Game-Main_autogen/moc_predefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QPair \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/Qtimer \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/Qstring \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
@@ -128,7 +128,6 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/QImage \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
@@ -153,7 +152,6 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpointingdevice.h \
@@ -162,7 +160,6 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
@@ -181,15 +178,14 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/Qpushbutton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -414,5 +410,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  E:/Survivor-Game/Survivor-Game-Main/Characters.h \
+  E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h

@@ -1,13 +1,6 @@
 E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.cpp: E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/build/Survivor-Game-Main_autogen/moc_predefs.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QPair \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/Qtimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
@@ -19,7 +12,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbasicatomic.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -52,7 +44,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qhashfunctions.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
@@ -78,7 +69,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
@@ -110,7 +100,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -128,17 +117,12 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/QImage \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
@@ -146,30 +130,23 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/QMediaPlayer \
@@ -180,12 +157,9 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
-  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \

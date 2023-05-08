@@ -1,13 +1,15 @@
 E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp: E:/Survivor-Game/Survivor-Game-Main/mainwindow.h \
   E:/Survivor-Game/build/Survivor-Game-Main_autogen/moc_predefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QMap \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QPair \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/Qtimer \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/Qstring \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
@@ -128,9 +130,9 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
-  D:/Qt/6.5.0/mingw_64/include/QtGui/QImage \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QKeyEvent \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
@@ -414,5 +416,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  E:/Survivor-Game/Survivor-Game-Main/Characters.h \
+  E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h

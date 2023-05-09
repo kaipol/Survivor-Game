@@ -418,5 +418,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   E:/Survivor-Game/Survivor-Game-Main/Characters.h \
   E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h

@@ -6,6 +6,7 @@
 #include <QApplication>
 #include <QMediaPlayer>
 #include <QPainter>
+#include <QLabel>
 #include <QPushButton>
 
 class MainInterface : public QWidget
@@ -16,6 +17,7 @@ private:
     QPushButton *startButton;         // 开始按钮
     QPushButton *exitButton;          // 退出按钮
     QPushButton *loadbutton;          // 加载存档按钮
+    QLabel *game_name_label;          // 游戏名字标签
 
 signals:
     void changeWidgetsignal(int Index); // 切换窗口信号

@@ -22,11 +22,11 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void paintGameEvent(QPaintEvent *event); // 绘制游戏地图事件
     QStackedWidget *stackedLayout;
 
 public slots:
     void changeWidget(int Index); // 切换窗口槽函数
+    void play_again();            // 再来一局槽函数
     // void save_date();       // 保存游戏槽函数
     // void load_date();       // 加载游戏槽函数
 

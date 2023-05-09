@@ -23,8 +23,9 @@ public slots:
 
 signals:
     void changeWidgetsignal(int Index); // 切换窗口信号
+    void play_again_signal();           // 再来一局信号
 
 public:
     GameEndInterface(QWidget *parent = nullptr);
-    // void paintEvent(QPaintEvent *event);
+    void paintEvent(QPaintEvent *event);
 };

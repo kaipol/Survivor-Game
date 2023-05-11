@@ -10,7 +10,8 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     time_label->setStyleSheet("font: bold 15px");                           // 设置字体
     connect(timer, &QTimer::timeout, this, &FightInterface::time_control);  // 战斗定时器连接
     connect(timer, &QTimer::timeout, this, &FightInterface::Monsters_move); // 战斗定时器连接
-    connect(timer, &QTimer::timeout, this, &FightInterface::bullet_move);   // 战斗定时器连接
+    connect(timer, &QTimer::timeout, this, &FightInterface::bullet_generate);
+    connect(timer, &QTimer::timeout, this, &FightInterface::bullet_move); // 战斗定时器连接
 
     backbutton = new QPushButton("返回主界面", this); // 返回按钮初始化
     backbutton->setGeometry(900, 0, 90, 30);          // 设置返回按钮位置
@@ -218,8 +219,10 @@ void FightInterface::bullet_move()
                 {
                     hero_bullets[i]->bullet_loc.second -= 80;
                 }
+
                 else
                 {
+                    delete hero_bullets[i];
                     hero_bullets.remove(i);
                 }
             }
@@ -267,6 +270,7 @@ void FightInterface::bullet_move()
             break;
         }
     }
+    paint_bullet();
 }
 
 void FightInterface::Heroes_and_Monsters_init(QString name) // 英雄和怪物初始化

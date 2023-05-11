@@ -40,8 +40,8 @@ public slots:
     void time_control();                         // 时间控制
     void game_fail();                            // 游戏失败
     void Monsters_move();                        // 怪物移动函数
-    // void bullet_generate();                      // 子弹生成槽函数
-    void bullet_move(); // 子弹移动槽函数
+    void bullet_generate();                      // 子弹生成槽函数
+    void bullet_move();                          // 子弹移动槽函数
 
 signals:
     void changeWidgetsignal(int Index); // 切换窗口信号

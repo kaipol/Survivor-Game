@@ -44,6 +44,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
@@ -136,12 +137,14 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
@@ -157,9 +160,12 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \

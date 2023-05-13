@@ -420,4 +420,5 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
   E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
-  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h
+  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h \
+  E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h

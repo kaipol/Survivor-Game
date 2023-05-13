@@ -5,6 +5,8 @@
         "qmediaplayer": "cpp",
         "qmainwindow": "cpp",
         "qvector": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "qpixmap": "cpp",
+        "qfile": "cpp"
     }
 }

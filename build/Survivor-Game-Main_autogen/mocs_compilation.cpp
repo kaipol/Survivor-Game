@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_GameEndInterface.cpp"
 #include "EWIEGA46WW/moc_MainInterface.cpp"
 #include "EWIEGA46WW/moc_SelectHeroes.cpp"
+#include "EWIEGA46WW/moc_ShopInterface.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"

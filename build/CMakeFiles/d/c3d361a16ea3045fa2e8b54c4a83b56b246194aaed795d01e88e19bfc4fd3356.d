@@ -655,6 +655,8 @@ Survivor-Game-Main_autogen/timestamp: \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.cpp \
   E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h \
+  E:/Survivor-Game/Survivor-Game-Main/ShopInterface.cpp \
+  E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/main.cpp \
   E:/Survivor-Game/Survivor-Game-Main/mainwindow.cpp \
   E:/Survivor-Game/Survivor-Game-Main/mainwindow.h \

@@ -1,5 +1,10 @@
 E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp: E:/Survivor-Game/Survivor-Game-Main/mainwindow.h \
   E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Survivor-Game-Main_autogen/moc_predefs.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QByteArray \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonArray \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonDocument \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonObject \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMap \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
@@ -7,6 +12,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QString \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
   D:/Qt/6.5.0/mingw_64/include/QtCore/Qstring \
@@ -27,6 +33,9 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearraylist.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcborcommon.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcborvalue.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcompare.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -42,9 +51,12 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qdatetime.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qeventloop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qexceptionhandling.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qfiledevice.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qflags.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qforeach.h \
@@ -58,6 +70,10 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qjsonarray.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qjsondocument.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qjsonobject.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qjsonvalue.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
@@ -84,6 +100,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qscopeguard.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
@@ -125,6 +142,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtypes.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qutf8stringview.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/quuid.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
@@ -187,6 +205,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/Qpushbutton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
@@ -224,6 +243,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/c++0x_warning.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
@@ -233,6 +253,10 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_fwd.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_path.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
@@ -242,8 +266,11 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/max_size_type.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
@@ -256,6 +283,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ranges_algo.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ranges_algobase.h \
@@ -305,12 +333,14 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/compare \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/concepts \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
@@ -324,13 +354,16 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/filesystem \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
@@ -347,6 +380,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/bessel_function.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/beta_function.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/ell_integral.tcc \
@@ -375,7 +409,9 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
@@ -419,5 +455,9 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   E:/Survivor-Game/Survivor-Game-Main/Characters.h \
   E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/LevelUpSelectInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
-  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h
+  E:/Survivor-Game/Survivor-Game-Main/Prop.h \
+  E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h \
+  E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h

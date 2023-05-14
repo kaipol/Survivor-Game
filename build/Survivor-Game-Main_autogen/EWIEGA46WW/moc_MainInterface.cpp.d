@@ -1,5 +1,7 @@
 E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.cpp: E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \
   E:/Survivor-Game/build/Survivor-Game-Main_autogen/moc_predefs.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QString \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -12,6 +14,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -101,6 +104,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -119,6 +123,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
@@ -386,4 +391,6 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_MainInterface.c
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  E:/Survivor-Game/Survivor-Game-Main/Prop.h \
+  E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h

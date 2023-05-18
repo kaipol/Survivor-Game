@@ -7,6 +7,7 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QString \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
   D:/Qt/6.5.0/mingw_64/include/QtCore/Qstring \
@@ -401,4 +402,5 @@ E:/Survivor-Game/build-Survivor-Game-Main-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Su
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  E:/Survivor-Game/Survivor-Game-Main/Characters.h
+  E:/Survivor-Game/Survivor-Game-Main/Characters.h \
+  E:/Survivor-Game/Survivor-Game-Main/Prop.h

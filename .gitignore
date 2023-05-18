@@ -1,0 +1,6 @@
+*.pdf
+*.pptx
+*.ppt
+.cache
+.vscode
+```

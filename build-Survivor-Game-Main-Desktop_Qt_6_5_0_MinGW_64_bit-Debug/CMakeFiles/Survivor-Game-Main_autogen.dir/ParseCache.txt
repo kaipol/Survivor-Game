@@ -13,6 +13,7 @@ E:/Survivor-Game/Survivor-Game-Main/FightInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QRect
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QSize
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QString
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QVector
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QString
@@ -408,6 +409,7 @@ E:/Survivor-Game/Survivor-Game-Main/FightInterface.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
  mdp:E:/Survivor-Game/Survivor-Game-Main/Characters.h
+ mdp:E:/Survivor-Game/Survivor-Game-Main/Prop.h
 E:/Survivor-Game/Survivor-Game-Main/Characters.cpp
 E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h
  mmc:Q_OBJECT

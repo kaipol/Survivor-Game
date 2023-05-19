@@ -1637,8 +1637,6 @@ E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mmc:Q_OBJECT
  mdp:E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mdp:E:/Survivor-Game/build/Survivor-Game-Main_autogen/moc_predefs.h
- mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QString
- mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QVector
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h
@@ -1651,7 +1649,6 @@ E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic_cxx11.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbasicatomic.h
- mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h
@@ -1741,7 +1738,6 @@ E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtdeprecationmarkers.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtenvironmentvariables.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h
- mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h
@@ -1760,7 +1756,6 @@ E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter
- mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/QPixmap
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h
@@ -2029,8 +2024,6 @@ E:/Survivor-Game/Survivor-Game-Main/MainInterface.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
- mdp:E:/Survivor-Game/Survivor-Game-Main/Prop.h
- mdp:E:/Survivor-Game/Survivor-Game-Main/ShopInterface.h
 E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h
  mmc:Q_OBJECT
  mdp:E:/Survivor-Game/Survivor-Game-Main/SelectHeroes.h
@@ -2807,6 +2800,9 @@ E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonArray
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonDocument
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QJsonObject
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QPair
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QTimer
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QString
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h
@@ -2818,6 +2814,7 @@ E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qatomic_cxx11.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbasicatomic.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbasictimer.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearray.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h
@@ -2912,6 +2909,7 @@ E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtdeprecationmarkers.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtenvironmentvariables.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtimer.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h
@@ -2930,6 +2928,7 @@ E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/QPixmap
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h
@@ -3204,5 +3203,6 @@ E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+ mdp:E:/Survivor-Game/Survivor-Game-Main/Characters.h
 E:/Survivor-Game/Survivor-Game-Main/LevelUpSelectInterface.cpp
 E:/Survivor-Game/Survivor-Game-Main/Prop.cpp

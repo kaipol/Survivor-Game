@@ -42,15 +42,21 @@ static constexpr auto qt_meta_stringdata_CLASSMainInterfaceENDCLASS = QtMocHelpe
     "MainInterface",
     "changeWidgetsignal",
     "",
-    "Index"
+    "Index",
+    "continue_game_signal",
+    "is_started",
+    "load_data"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainInterfaceENDCLASS_t {
-    uint offsetsAndSizes[8];
+    uint offsetsAndSizes[14];
     char stringdata0[14];
     char stringdata1[19];
     char stringdata2[1];
     char stringdata3[6];
+    char stringdata4[21];
+    char stringdata5[11];
+    char stringdata6[10];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSMainInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -59,12 +65,18 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainInterfaceENDCLASS_t qt_meta
         QT_MOC_LITERAL(0, 13),  // "MainInterface"
         QT_MOC_LITERAL(14, 18),  // "changeWidgetsignal"
         QT_MOC_LITERAL(33, 0),  // ""
-        QT_MOC_LITERAL(34, 5)   // "Index"
+        QT_MOC_LITERAL(34, 5),  // "Index"
+        QT_MOC_LITERAL(40, 20),  // "continue_game_signal"
+        QT_MOC_LITERAL(61, 10),  // "is_started"
+        QT_MOC_LITERAL(72, 9)   // "load_data"
     },
     "MainInterface",
     "changeWidgetsignal",
     "",
-    "Index"
+    "Index",
+    "continue_game_signal",
+    "is_started",
+    "load_data"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -76,18 +88,28 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainInterfaceENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x06,    1 /* Public */,
+       1,    1,   38,    2, 0x06,    1 /* Public */,
+       4,    0,   41,    2, 0x06,    3 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       5,    0,   42,    2, 0x0a,    4 /* Public */,
+       6,    0,   43,    2, 0x0a,    5 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -103,7 +125,13 @@ Q_CONSTINIT const QMetaObject MainInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<MainInterface, std::true_type>,
         // method 'changeWidgetsignal'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'continue_game_signal'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'is_started'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'load_data'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -115,6 +143,9 @@ void MainInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         (void)_t;
         switch (_id) {
         case 0: _t->changeWidgetsignal((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 1: _t->continue_game_signal(); break;
+        case 2: _t->is_started(); break;
+        case 3: _t->load_data(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -123,6 +154,13 @@ void MainInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             using _t = void (MainInterface::*)(int );
             if (_t _q_method = &MainInterface::changeWidgetsignal; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (MainInterface::*)();
+            if (_t _q_method = &MainInterface::continue_game_signal; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
                 return;
             }
         }
@@ -148,13 +186,13 @@ int MainInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 4;
     }
     return _id;
 }
@@ -164,5 +202,11 @@ void MainInterface::changeWidgetsignal(int _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void MainInterface::continue_game_signal()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 QT_WARNING_POP

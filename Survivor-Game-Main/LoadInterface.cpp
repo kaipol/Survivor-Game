@@ -41,9 +41,9 @@ void LoadInterface::paintEvent(QPaintEvent *event)
     QPainter pen(this);
     pen.drawPixmap(0, 0, 1000, 850, QPixmap("../src/Sprite/Load_background.png")); // 绘制背景
 }
-void LoadInterface::get_save_date(Heroes *hero)
+void LoadInterface::get_save_date(Heroes hero)//!无法初始化
 {
-    hero_mir = hero;
+    hero_mir = &hero;
 }
 
 void LoadInterface::update_info()
@@ -102,11 +102,23 @@ void LoadInterface::is_main()
     save_button->hide();
     save_button2->hide();
     save_button3->hide();
+    load_button->show();
+    load_button2->show();
+    load_button3->show();
+}
+
+void LoadInterface::is_fight()
+{
+    save_button->show();
+    save_button2->show();
+    save_button3->show();
+    load_button->hide();
+    load_button2->hide();
+    load_button3->hide();
 }
 
 void LoadInterface::save_data(int choice)
 {
-    get_save_date(hero_mir);
     QFile file;
     switch (choice)
     {
@@ -151,21 +163,21 @@ void LoadInterface::load_data(int choice)
     case 0:
         if (!is_null)
         {
-            emit data_select_signal(hero_mir);
+            emit data_select_signal(*hero_mir);
             emit is_selected();
         }
         break;
     case 1:
         if (!is_null2)
         {
-            emit data_select_signal(hero_mir2);
+            emit data_select_signal(*hero_mir2);
             emit is_selected();
         }
         break;
     case 2:
         if (!is_null3)
         {
-            emit data_select_signal(hero_mir3);
+            emit data_select_signal(*hero_mir3);
             emit is_selected();
         }
         break;

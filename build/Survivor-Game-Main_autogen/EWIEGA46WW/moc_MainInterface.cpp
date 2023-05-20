@@ -102,16 +102,16 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainInterfaceENDCLASS[] = {
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
        1,    1,   44,    2, 0x06,    1 /* Public */,
        4,    0,   47,    2, 0x06,    3 /* Public */,
-       5,    1,   48,    2, 0x06,    4 /* Public */,
+       5,    0,   48,    2, 0x06,    4 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       6,    0,   51,    2, 0x0a,    6 /* Public */,
-       7,    0,   52,    2, 0x0a,    7 /* Public */,
+       6,    0,   49,    2, 0x0a,    5 /* Public */,
+       7,    0,   50,    2, 0x0a,    6 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void,
 
  // slots: parameters
     QMetaType::Void,
@@ -136,7 +136,6 @@ Q_CONSTINIT const QMetaObject MainInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'is_main'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
         // method 'is_started'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'load_data'
@@ -153,7 +152,7 @@ void MainInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         switch (_id) {
         case 0: _t->changeWidgetsignal((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 1: _t->continue_game_signal(); break;
-        case 2: _t->is_main((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 2: _t->is_main(); break;
         case 3: _t->is_started(); break;
         case 4: _t->load_data(); break;
         default: ;
@@ -175,7 +174,7 @@ void MainInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             }
         }
         {
-            using _t = void (MainInterface::*)(bool );
+            using _t = void (MainInterface::*)();
             if (_t _q_method = &MainInterface::is_main; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 2;
                 return;
@@ -228,9 +227,8 @@ void MainInterface::continue_game_signal()
 }
 
 // SIGNAL 2
-void MainInterface::is_main(bool _t1)
+void MainInterface::is_main()
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP

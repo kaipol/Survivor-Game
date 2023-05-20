@@ -43,22 +43,26 @@ static constexpr auto qt_meta_stringdata_CLASSLoadInterfaceENDCLASS = QtMocHelpe
     "is_selected",
     "",
     "data_select_signal",
-    "Heroes*",
+    "Heroes",
     "changeWidgetsignal",
     "Index",
-    "get_save_date"
+    "get_save_date",
+    "is_main",
+    "is_fight"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSLoadInterfaceENDCLASS_t {
-    uint offsetsAndSizes[16];
+    uint offsetsAndSizes[20];
     char stringdata0[14];
     char stringdata1[12];
     char stringdata2[1];
     char stringdata3[19];
-    char stringdata4[8];
+    char stringdata4[7];
     char stringdata5[19];
     char stringdata6[6];
     char stringdata7[14];
+    char stringdata8[8];
+    char stringdata9[9];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSLoadInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -68,19 +72,23 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSLoadInterfaceENDCLASS_t qt_meta
         QT_MOC_LITERAL(14, 11),  // "is_selected"
         QT_MOC_LITERAL(26, 0),  // ""
         QT_MOC_LITERAL(27, 18),  // "data_select_signal"
-        QT_MOC_LITERAL(46, 7),  // "Heroes*"
-        QT_MOC_LITERAL(54, 18),  // "changeWidgetsignal"
-        QT_MOC_LITERAL(73, 5),  // "Index"
-        QT_MOC_LITERAL(79, 13)   // "get_save_date"
+        QT_MOC_LITERAL(46, 6),  // "Heroes"
+        QT_MOC_LITERAL(53, 18),  // "changeWidgetsignal"
+        QT_MOC_LITERAL(72, 5),  // "Index"
+        QT_MOC_LITERAL(78, 13),  // "get_save_date"
+        QT_MOC_LITERAL(92, 7),  // "is_main"
+        QT_MOC_LITERAL(100, 8)   // "is_fight"
     },
     "LoadInterface",
     "is_selected",
     "",
     "data_select_signal",
-    "Heroes*",
+    "Heroes",
     "changeWidgetsignal",
     "Index",
-    "get_save_date"
+    "get_save_date",
+    "is_main",
+    "is_fight"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -92,7 +100,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLoadInterfaceENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -100,12 +108,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLoadInterfaceENDCLASS[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   38,    2, 0x06,    1 /* Public */,
-       3,    1,   39,    2, 0x06,    2 /* Public */,
-       5,    1,   42,    2, 0x06,    4 /* Public */,
+       1,    0,   50,    2, 0x06,    1 /* Public */,
+       3,    1,   51,    2, 0x06,    2 /* Public */,
+       5,    1,   54,    2, 0x06,    4 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       7,    1,   45,    2, 0x0a,    6 /* Public */,
+       7,    1,   57,    2, 0x0a,    6 /* Public */,
+       8,    0,   60,    2, 0x0a,    8 /* Public */,
+       9,    0,   61,    2, 0x0a,    9 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -114,6 +124,8 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLoadInterfaceENDCLASS[] = {
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 4,    2,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -131,13 +143,17 @@ Q_CONSTINIT const QMetaObject LoadInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'data_select_signal'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<Heroes *, std::false_type>,
+        QtPrivate::TypeAndForceComplete<Heroes, std::false_type>,
         // method 'changeWidgetsignal'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'get_save_date'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<Heroes *, std::false_type>
+        QtPrivate::TypeAndForceComplete<Heroes, std::false_type>,
+        // method 'is_main'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'is_fight'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -149,9 +165,11 @@ void LoadInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         (void)_t;
         switch (_id) {
         case 0: _t->is_selected(); break;
-        case 1: _t->data_select_signal((*reinterpret_cast< std::add_pointer_t<Heroes*>>(_a[1]))); break;
+        case 1: _t->data_select_signal((*reinterpret_cast< std::add_pointer_t<Heroes>>(_a[1]))); break;
         case 2: _t->changeWidgetsignal((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 3: _t->get_save_date((*reinterpret_cast< std::add_pointer_t<Heroes*>>(_a[1]))); break;
+        case 3: _t->get_save_date((*reinterpret_cast< std::add_pointer_t<Heroes>>(_a[1]))); break;
+        case 4: _t->is_main(); break;
+        case 5: _t->is_fight(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -164,7 +182,7 @@ void LoadInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             }
         }
         {
-            using _t = void (LoadInterface::*)(Heroes * );
+            using _t = void (LoadInterface::*)(Heroes );
             if (_t _q_method = &LoadInterface::data_select_signal; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 1;
                 return;
@@ -199,13 +217,13 @@ int LoadInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 6;
     }
     return _id;
 }
@@ -217,7 +235,7 @@ void LoadInterface::is_selected()
 }
 
 // SIGNAL 1
-void LoadInterface::data_select_signal(Heroes * _t1)
+void LoadInterface::data_select_signal(Heroes _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);

@@ -9,7 +9,7 @@ LevelUpSelectInterface::LevelUpSelectInterface(QWidget *parent) : QWidget(parent
     select_three = new QPushButton("选它", this); // 创建按钮
     select_three->setGeometry(100, 300, 100, 50); // 设置按钮位置和大小
 
-    label1 = new QLabel("血量+3", this);               // 创建标签
+    label1 = new QLabel("当前血量+3", this);           // 创建标签
     label2 = new QLabel("攻击+1", this);               // 创建标签
     label3 = new QLabel("速度+5", this);               // 创建标签
     label4 = new QLabel("击杀怪物获取金币数+1", this); // 创建标签

@@ -108,8 +108,7 @@ void FightInterface::keyPressEvent(QKeyEvent *event) // 键盘事件
     }
     if (event->key() == Qt::Key_S)
     {
-        qDebug() << (hero_loc[0] + 78) / 100 << ((hero_loc[1] + 80) + (hero->get_hero_speed())) / 80;
-        if (hero_loc[1] + 80 + (hero->get_hero_speed()) < 800 && game_map[(hero_loc[0] + 96) / 100][((hero_loc[1] + 78) + (hero->get_hero_speed())) / 80] == 0 && game_map[(hero_loc[0]) / 100][((hero_loc[1] + 78) + (hero->get_hero_speed())) / 80] == 0)
+        if (hero_loc[1] + 80 + (hero->get_hero_speed()) < 800 && game_map[(hero_loc[0] + 93) / 100][((hero_loc[1] + 60) + hero->get_hero_speed()) / 80] == 0 && game_map[(hero_loc[0]) / 100][((hero_loc[1] + 60) + (hero->get_hero_speed())) / 80] == 0)
         {
             hero_loc[1] += hero->get_hero_speed();
             hero_direction = 1;
@@ -356,7 +355,7 @@ void FightInterface::paintEvent(QPaintEvent *event) // 绘制事件
             }
         }
     }
-    pen.drawPixmap(hero_loc[0], hero_loc[1], 100, 80, *hero->get_hero_pic()); // 绘制英雄
+    pen.drawPixmap(hero_loc[0], hero_loc[1], 80, 80, *hero->get_hero_pic()); // 绘制英雄
     for (int i = 0; i < Monsters_all.size(); i++)
     {
         pen.drawPixmap(Monsters_all[i]->get_monster_loc().first, Monsters_all[i]->get_monster_loc().second, 50, 40, *Monsters_all[i]->get_monster_pic()); // 绘制怪物
@@ -402,7 +401,7 @@ void FightInterface::get_level_up_change(int type)
     switch (type)
     {
     case 0:
-
+        hero->set_hero_blood(hero->get_hero_blood_max() + 3);
         break;
     case 1:
         hero->set_hero_attack(hero->get_hero_attack() + 1);

@@ -34,8 +34,8 @@ void SelectHeroesInterface::paintEvent(QPaintEvent *event)
 {
     QPainter pen(this);
     pen.drawPixmap(-125, -100, 1250, 1000, QPixmap("../src/Sprite/BBG_002.png"));   // 绘制背景
-    pen.drawPixmap(70, 200, 400, 300, QPixmap("../src/Sprite/MCH_PL001_001.png"));  // 绘制背景
-    pen.drawPixmap(530, 200, 400, 300, QPixmap("../src/Sprite/MCH_PL006_001.png")); // 绘制背景
+    pen.drawPixmap(130, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL001_001.png")); // 绘制背景
+    pen.drawPixmap(600, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL006_001.png")); // 绘制背景
 }
 
 void SelectHeroesInterface::hero1_to_fight()

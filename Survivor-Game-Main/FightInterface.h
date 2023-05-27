@@ -42,7 +42,6 @@ public slots:
 
 signals:
     void changeWidgetsignal(int Index);  // 切换窗口信号
-    void hero_hp_equal_0_signal();       // 英雄血量为0信号
     void enter_shop_signal(int coin);    // 进入商店信号
     void game_end_type_signal(int type); // 游戏结束类型信号
     void save_data_signal(Heroes);       // 保存游戏信号
@@ -52,11 +51,12 @@ private:
     QMap<int, Monsters *> Monsters_all;              // 怪物
     QMap<int, QPair<int, int>> Monsters_bullets_loc; // 怪物子弹位置
 
-    Heroes *hero;             // 英雄
-    int hero_loc[2];          // 英雄位置
-    QLabel *hero_hp_label;    // 英雄血量标签
-    QLabel *hero_level_label; // 英雄等级标签
-    int hero_direction;       // 英雄方向: 0上 1下 2左 3右
+    Heroes *hero;              // 英雄
+    int hero_loc[2];           // 英雄位置
+    QLabel *hero_hp_label;     // 英雄血量标签
+    QLabel *hero_level_label;  // 英雄等级标签
+    QLabel *hero_revive_label; // 英雄复活次数标签
+    int hero_direction;        // 英雄方向: 0上 1下 2左 3右
 
     QVector<QVector<int>> hero_bullets_loc; // 英雄子弹位置
     QPixmap *hero_bullets_pic;              // 英雄子弹图片

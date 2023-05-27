@@ -8,11 +8,17 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     monster_timer = new QTimer(this); // 怪物定时器
     remain_min = 0, remain_sec = 20;  // 剩余时间初始化
     time_label = new QLabel("剩余时间: " + QString::number(remain_min) + ":" + QString::number(remain_sec), this);
-    time_label->setGeometry(0, 0, 200, 30);                           // 时间显示位置
-    time_label->setStyleSheet("font: bold 15px");                     // 设置字体
-    coin_label = new QLabel("金币数:" + QString::number(coin), this); // 金币显示
-    coin_label->setGeometry(0, 30, 200, 30);                          // 金币显示位置
-    coin_label->setStyleSheet("font: bold 17px");                     // 设置字体
+    time_label->setGeometry(0, 0, 200, 30);                                                                  // 时间显示位置
+    time_label->setStyleSheet("font: bold 15px");                                                            // 设置字体
+    coin_label = new QLabel("金币数:" + QString::number(coin), this);                                        // 金币显示
+    coin_label->setGeometry(0, 30, 200, 30);                                                                 // 金币显示位置
+    coin_label->setStyleSheet("font: bold 17px");                                                            // 设置字体
+    hero_level_label = new QLabel("英雄等级:" + QString::number(hero->get_hero_level()), this);              // 英雄等级显示
+    hero_level_label->setGeometry(0, 60, 200, 30);                                                           // 英雄等级显示位置
+    hero_level_label->setStyleSheet("font: bold 17px");                                                      // 设置字体
+    hero_revive_label = new QLabel("英雄复活次数:" + QString::number(hero->get_hero_revival_times()), this); // 英雄复活次数显示
+    hero_revive_label->setGeometry(0, 90, 200, 30);                                                          // 英雄复活次数显示位置
+    hero_revive_label->setStyleSheet("font: bold 17px");                                                     // 设置字体
 
     connect(timer, &QTimer::timeout, this, &FightInterface::time_control);              // 战斗定时器连接
     connect(timer, &QTimer::timeout, this, &FightInterface::Monsters_move);             // 战斗定时器连接
@@ -28,15 +34,13 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     connect(savebutton, &QPushButton::clicked, this, &FightInterface::save_data);    // 保存按钮连接
     connect(backbutton, &QPushButton::clicked, this, &FightInterface::back_to_main); // 返回按钮连接
 
-    connect(this, &FightInterface::hero_hp_equal_0_signal, this, &FightInterface::game_fail); // 英雄血量为0信号连接
-
     game_map = {
-        {0, 1, 0, 0, 0, 0, 0, 0, 1, 0},
+        {0, 0, 0, 1, 0, 0, 0, 0, 1, 0},
         {0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
         {0, 0, 1, 0, 0, 0, 0, 1, 0, 0},
-        {0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+        {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         {0, 1, 0, 0, 0, 0, 1, 0, 0, 0},
-        {0, 0, 0, 0, 0, 0, 0, 0, 1, 0},
+        {0, 0, 0, 0, 1, 0, 0, 0, 1, 0},
         {0, 0, 0, 0, 0, 0, 0, 0, 1, 0},
         {0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
         {0, 0, 0, 0, 0, 1, 0, 0, 1, 0},
@@ -59,7 +63,7 @@ void FightInterface::Heroes_and_Monsters_init(QString name) // 英雄和怪物�
     hero_hp_label = hero->get_hero_hp_label();                               // 血量显示
     hero_hp_label->setParent(this);                                          // 设置父对象
     hero_hp_label->setGeometry(hero_loc[0] + 20, hero_loc[1] - 10, 100, 10); // 血量显示位置
-    hero_hp_label->setStyleSheet("font: bold 15px");                         // 设置字体
+    hero_hp_label->setStyleSheet("font: bold 15px;color:red");               // 设置字体
     hero_direction = 1;                                                      // 英雄方向初始化
     hero_bullets_pic = hero->get_hero_bullets();                             // 英雄子弹图片初始化
 
@@ -85,9 +89,9 @@ void FightInterface::Heroes_and_Monsters_init(QString name) // 英雄和怪物�
         Monsters_all[i]->get_monster_hp_label()->setStyleSheet("font: bold 15px");                                                                                    // 设置字体
     }
 
-    timer->start(1000);       // 战斗定时器开始
-    bullet_timer->start(300); // 子弹定时器开始
-    monster_timer->start(3000);
+    timer->start(1000);         // 战斗定时器开始
+    bullet_timer->start(300);   // 子弹定时器开始
+    monster_timer->start(3000); // 怪物定时器开始
 }
 
 void FightInterface::get_data(Heroes hero)
@@ -100,7 +104,7 @@ void FightInterface::keyPressEvent(QKeyEvent *event) // 键盘事件
 {
     if (event->key() == Qt::Key_W)
     {
-        if (hero_loc[1] - (hero->get_hero_speed()) > 0 && game_map[hero_loc[0] / 100][(hero_loc[1] - (hero->get_hero_speed())) / 80] == 0)
+        if (hero_loc[1] - (hero->get_hero_speed()) > 0 && game_map[(hero_loc[0] + 93) / 100][(hero_loc[1] - (hero->get_hero_speed())) / 80] == 0 && game_map[(hero_loc[0]) / 100][(hero_loc[1] - (hero->get_hero_speed())) / 80] == 0)
         {
             hero_loc[1] -= hero->get_hero_speed();
             hero_direction = 0;
@@ -236,6 +240,29 @@ void FightInterface::Monsters_generate()
     Monsters_all[Monsters_all.size() - 1]->get_monster_hp_label()->show();                                                                                                                                                          // 显示血量
 }
 
+void FightInterface::bullet_generate()
+{
+    switch (hero_direction)
+    {
+    case 0:
+        hero_bullets_loc.push_back({hero_loc[0] + 50, hero_loc[1] + 40 - 5, hero_direction});
+        break;
+    case 1:
+        hero_bullets_loc.push_back({hero_loc[0] + 50, hero_loc[1] + 40 + 5, hero_direction});
+        break;
+    case 2:
+        hero_bullets_loc.push_back({hero_loc[0] + 50 - 5, hero_loc[1] + 40, hero_direction});
+        break;
+    case 3:
+        hero_bullets_loc.push_back({hero_loc[0] + 50 + 5, hero_loc[1] + 40, hero_direction});
+        break;
+
+    default:
+        break;
+    }
+    paint_bullet();
+}
+
 void FightInterface::bullet_move()
 {
     // 英雄子弹移动
@@ -289,52 +316,44 @@ void FightInterface::bullet_move()
     update();
 }
 
+inline void FightInterface::paint_bullet() // 绘制子弹
+{
+    QPainter pen(this);
+    for (int i = 0; i < hero_bullets_loc.size(); i++)
+    {
+        pen.drawPixmap(hero_bullets_loc[i][0], hero_bullets_loc[i][1], 20, 20, *hero_bullets_pic); // 绘制子弹
+    }
+}
+
 void FightInterface::check_hero_attack()
 {
     int revival_time = hero->get_hero_revival_times();
     int hero_hp = hero->get_hero_blood();
+    QRect hero_rect(hero_loc[0], hero_loc[1], 80, 80);
     for (int i = 0; i < Monsters_all.size(); i++)
     {
-        QPair<int, int> loc = Monsters_all[i]->get_monster_loc(); // 获取怪物位置
-        if (qAbs(loc.first - hero_loc[0]) <= 20 && qAbs(loc.second - hero_loc[1]) <= 20)
+        QRect monster_rect((Monsters_all[i]->get_monster_loc()).first, (Monsters_all[i]->get_monster_loc()).second, 50, 40);
+        if (hero_rect.intersects(monster_rect))
         {
             hero->set_hero_blood(hero_hp - Monsters_all[i]->get_monster_close_attack());
             hero_hp_label->setText("血量: " + QString::number(hero_hp));
             if (hero_hp <= 0 && revival_time == 0)
             {
-                emit hero_hp_equal_0_signal();
+                game_fail();
             }
-            else
+            else if (hero_hp <= 0 && revival_time > 0)
             {
                 revival_time--;
+                hero_loc[0] = 0;
+                hero_loc[1] = 0;
                 hero_hp = hero->get_hero_blood_max();
+                hero_hp_label->setText("血量: " + QString::number(hero_hp));
+                update();
             }
         }
     }
     hero->set_hero_revival_times(revival_time);
-}
-
-void FightInterface::bullet_generate()
-{
-    switch (hero_direction)
-    {
-    case 0:
-        hero_bullets_loc.push_back({hero_loc[0] + 50, hero_loc[1] + 40 - 5, hero_direction});
-        break;
-    case 1:
-        hero_bullets_loc.push_back({hero_loc[0] + 50, hero_loc[1] + 40 + 5, hero_direction});
-        break;
-    case 2:
-        hero_bullets_loc.push_back({hero_loc[0] + 50 - 5, hero_loc[1] + 40, hero_direction});
-        break;
-    case 3:
-        hero_bullets_loc.push_back({hero_loc[0] + 50 + 5, hero_loc[1] + 40, hero_direction});
-        break;
-
-    default:
-        break;
-    }
-    paint_bullet();
+    hero_revive_label->setText("复活次数: " + QString::number(revival_time));
 }
 
 void FightInterface::paintEvent(QPaintEvent *event) // 绘制事件
@@ -363,15 +382,6 @@ void FightInterface::paintEvent(QPaintEvent *event) // 绘制事件
     paint_bullet();
 }
 
-inline void FightInterface::paint_bullet() // 绘制子弹
-{
-    QPainter pen(this);
-    for (int i = 0; i < hero_bullets_loc.size(); i++)
-    {
-        pen.drawPixmap(hero_bullets_loc[i][0], hero_bullets_loc[i][1], 20, 20, *hero_bullets_pic); // 绘制子弹
-    }
-}
-
 void FightInterface::back_to_main() // 返回主界面
 {
     this->hide();
@@ -394,6 +404,7 @@ void FightInterface::hero_level_up()
         emit changeWidgetsignal(6);
     }
     hero->set_hero_exp(0), hero->set_hero_level(level);
+    hero_level_label->setText("英雄等级: " + QString::number(level));
 }
 
 void FightInterface::get_level_up_change(int type)

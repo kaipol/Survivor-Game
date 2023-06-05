@@ -686,6 +686,8 @@ Survivor-Game-Main_autogen/timestamp: \
 	E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
 	E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.cpp \
 	E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h \
+	E:/Survivor-Game/Survivor-Game-Main/GameMap.cpp \
+	E:/Survivor-Game/Survivor-Game-Main/GameMap.h \
 	E:/Survivor-Game/Survivor-Game-Main/LevelUpSelectInterface.cpp \
 	E:/Survivor-Game/Survivor-Game-Main/LevelUpSelectInterface.h \
 	E:/Survivor-Game/Survivor-Game-Main/LoadInterface.cpp \

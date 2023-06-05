@@ -55,7 +55,7 @@ static constexpr auto qt_meta_stringdata_CLASSFightInterfaceENDCLASS = QtMocHelp
     "time_control",
     "game_fail",
     "save_data",
-    "Heroes_and_Monsters_init",
+    "Heroes_init",
     "name",
     "Monsters_move",
     "Monsters_generate",
@@ -65,11 +65,12 @@ static constexpr auto qt_meta_stringdata_CLASSFightInterfaceENDCLASS = QtMocHelp
     "get_level_up_change",
     "get_prop_type",
     "get_data",
-    "continue_game"
+    "continue_game",
+    "get_map_type"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t {
-    uint offsetsAndSizes[54];
+    uint offsetsAndSizes[56];
     char stringdata0[15];
     char stringdata1[19];
     char stringdata2[1];
@@ -86,7 +87,7 @@ struct qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t {
     char stringdata13[13];
     char stringdata14[10];
     char stringdata15[10];
-    char stringdata16[25];
+    char stringdata16[12];
     char stringdata17[5];
     char stringdata18[14];
     char stringdata19[18];
@@ -97,6 +98,7 @@ struct qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t {
     char stringdata24[14];
     char stringdata25[9];
     char stringdata26[14];
+    char stringdata27[13];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -118,17 +120,18 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t qt_met
         QT_MOC_LITERAL(144, 12),  // "time_control"
         QT_MOC_LITERAL(157, 9),  // "game_fail"
         QT_MOC_LITERAL(167, 9),  // "save_data"
-        QT_MOC_LITERAL(177, 24),  // "Heroes_and_Monsters_init"
-        QT_MOC_LITERAL(202, 4),  // "name"
-        QT_MOC_LITERAL(207, 13),  // "Monsters_move"
-        QT_MOC_LITERAL(221, 17),  // "Monsters_generate"
-        QT_MOC_LITERAL(239, 15),  // "bullet_generate"
-        QT_MOC_LITERAL(255, 11),  // "bullet_move"
-        QT_MOC_LITERAL(267, 17),  // "check_hero_attack"
-        QT_MOC_LITERAL(285, 19),  // "get_level_up_change"
-        QT_MOC_LITERAL(305, 13),  // "get_prop_type"
-        QT_MOC_LITERAL(319, 8),  // "get_data"
-        QT_MOC_LITERAL(328, 13)   // "continue_game"
+        QT_MOC_LITERAL(177, 11),  // "Heroes_init"
+        QT_MOC_LITERAL(189, 4),  // "name"
+        QT_MOC_LITERAL(194, 13),  // "Monsters_move"
+        QT_MOC_LITERAL(208, 17),  // "Monsters_generate"
+        QT_MOC_LITERAL(226, 15),  // "bullet_generate"
+        QT_MOC_LITERAL(242, 11),  // "bullet_move"
+        QT_MOC_LITERAL(254, 17),  // "check_hero_attack"
+        QT_MOC_LITERAL(272, 19),  // "get_level_up_change"
+        QT_MOC_LITERAL(292, 13),  // "get_prop_type"
+        QT_MOC_LITERAL(306, 8),  // "get_data"
+        QT_MOC_LITERAL(315, 13),  // "continue_game"
+        QT_MOC_LITERAL(329, 12)   // "get_map_type"
     },
     "FightInterface",
     "changeWidgetsignal",
@@ -146,7 +149,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t qt_met
     "time_control",
     "game_fail",
     "save_data",
-    "Heroes_and_Monsters_init",
+    "Heroes_init",
     "name",
     "Monsters_move",
     "Monsters_generate",
@@ -156,7 +159,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFightInterfaceENDCLASS_t qt_met
     "get_level_up_change",
     "get_prop_type",
     "get_data",
-    "continue_game"
+    "continue_game",
+    "get_map_type"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -168,7 +172,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-      19,   14, // methods
+      20,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -176,27 +180,28 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,  128,    2, 0x06,    1 /* Public */,
-       4,    1,  131,    2, 0x06,    3 /* Public */,
-       6,    1,  134,    2, 0x06,    5 /* Public */,
-       8,    0,  137,    2, 0x06,    7 /* Public */,
+       1,    1,  134,    2, 0x06,    1 /* Public */,
+       4,    1,  137,    2, 0x06,    3 /* Public */,
+       6,    1,  140,    2, 0x06,    5 /* Public */,
+       8,    0,  143,    2, 0x06,    7 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       9,    1,  138,    2, 0x0a,    8 /* Public */,
-      12,    0,  141,    2, 0x0a,   10 /* Public */,
-      13,    0,  142,    2, 0x0a,   11 /* Public */,
-      14,    0,  143,    2, 0x0a,   12 /* Public */,
-      15,    0,  144,    2, 0x0a,   13 /* Public */,
-      16,    1,  145,    2, 0x0a,   14 /* Public */,
-      18,    0,  148,    2, 0x0a,   16 /* Public */,
-      19,    0,  149,    2, 0x0a,   17 /* Public */,
-      20,    0,  150,    2, 0x0a,   18 /* Public */,
-      21,    0,  151,    2, 0x0a,   19 /* Public */,
-      22,    0,  152,    2, 0x0a,   20 /* Public */,
-      23,    1,  153,    2, 0x0a,   21 /* Public */,
-      24,    1,  156,    2, 0x0a,   23 /* Public */,
-      25,    1,  159,    2, 0x0a,   25 /* Public */,
-      26,    0,  162,    2, 0x0a,   27 /* Public */,
+       9,    1,  144,    2, 0x0a,    8 /* Public */,
+      12,    0,  147,    2, 0x0a,   10 /* Public */,
+      13,    0,  148,    2, 0x0a,   11 /* Public */,
+      14,    0,  149,    2, 0x0a,   12 /* Public */,
+      15,    0,  150,    2, 0x0a,   13 /* Public */,
+      16,    1,  151,    2, 0x0a,   14 /* Public */,
+      18,    0,  154,    2, 0x0a,   16 /* Public */,
+      19,    0,  155,    2, 0x0a,   17 /* Public */,
+      20,    0,  156,    2, 0x0a,   18 /* Public */,
+      21,    0,  157,    2, 0x0a,   19 /* Public */,
+      22,    0,  158,    2, 0x0a,   20 /* Public */,
+      23,    1,  159,    2, 0x0a,   21 /* Public */,
+      24,    1,  162,    2, 0x0a,   23 /* Public */,
+      25,    1,  165,    2, 0x0a,   25 /* Public */,
+      26,    0,  168,    2, 0x0a,   27 /* Public */,
+      27,    1,  169,    2, 0x0a,   28 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -220,6 +225,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFightInterfaceENDCLASS[] = {
     QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, 0x80000000 | 7,    2,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    2,
 
        0        // eod
 };
@@ -255,7 +261,7 @@ Q_CONSTINIT const QMetaObject FightInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'save_data'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'Heroes_and_Monsters_init'
+        // method 'Heroes_init'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QString, std::false_type>,
         // method 'Monsters_move'
@@ -278,7 +284,10 @@ Q_CONSTINIT const QMetaObject FightInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<Heroes, std::false_type>,
         // method 'continue_game'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'get_map_type'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -298,7 +307,7 @@ void FightInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 6: _t->time_control(); break;
         case 7: _t->game_fail(); break;
         case 8: _t->save_data(); break;
-        case 9: _t->Heroes_and_Monsters_init((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 9: _t->Heroes_init((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 10: _t->Monsters_move(); break;
         case 11: _t->Monsters_generate(); break;
         case 12: _t->bullet_generate(); break;
@@ -308,6 +317,7 @@ void FightInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 16: _t->get_prop_type((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 17: _t->get_data((*reinterpret_cast< std::add_pointer_t<Heroes>>(_a[1]))); break;
         case 18: _t->continue_game(); break;
+        case 19: _t->get_map_type((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -362,13 +372,13 @@ int FightInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 19)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 19;
+        _id -= 20;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 19)
+        if (_id < 20)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 19;
+        _id -= 20;
     }
     return _id;
 }

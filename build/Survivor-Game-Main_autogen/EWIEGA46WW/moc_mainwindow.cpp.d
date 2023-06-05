@@ -455,6 +455,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
   E:/Survivor-Game/Survivor-Game-Main/Characters.h \
   E:/Survivor-Game/Survivor-Game-Main/FightInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/GameEndInterface.h \
+  E:/Survivor-Game/Survivor-Game-Main/GameMap.h \
   E:/Survivor-Game/Survivor-Game-Main/LevelUpSelectInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/LoadInterface.h \
   E:/Survivor-Game/Survivor-Game-Main/MainInterface.h \

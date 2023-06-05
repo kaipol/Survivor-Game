@@ -44,7 +44,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(shop_interface, &ShopInterface::changeWidgetsignal, this, &MainWindow::changeWidget);                  // 切换窗口信号连接
     connect(load_interface, &LoadInterface::changeWidgetsignal, this, &MainWindow::changeWidget);                  // 切换窗口信号连接
 
-    connect(select_heroes_interface, &SelectHeroesInterface::selectHerosignal, fight_interface, &FightInterface::Heroes_and_Monsters_init); // 选择英雄信号连接
+    connect(select_heroes_interface, &SelectHeroesInterface::selectHerosignal, fight_interface, &FightInterface::Heroes_init); // 选择英雄信号连接
 
     connect(shop_interface, &ShopInterface::prop_type, fight_interface, &FightInterface::get_prop_type);            // 道具类型信号连接
     connect(main_interface, &MainInterface::continue_game_signal, fight_interface, &FightInterface::continue_game); // 继续游戏信号连接
@@ -85,7 +85,7 @@ void MainWindow::restart_game()
     fight_interface->setFixedSize(1000, 800); // 设置窗口大小
 
     connect(fight_interface, &FightInterface::changeWidgetsignal, this, &MainWindow::changeWidget);                                         // 切换窗口信号连接
-    connect(select_heroes_interface, &SelectHeroesInterface::selectHerosignal, fight_interface, &FightInterface::Heroes_and_Monsters_init); // 选择英雄信号连接
+    connect(select_heroes_interface, &SelectHeroesInterface::selectHerosignal, fight_interface, &FightInterface::Heroes_init); // 选择英雄信号连接
     connect(fight_interface, &FightInterface::game_end_type_signal, game_end_interface, &GameEndInterface::get_end_type);                   // 游戏结束类型信号连接
 
     stackedLayout->insertWidget(2, fight_interface);

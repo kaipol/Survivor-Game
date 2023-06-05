@@ -68,6 +68,7 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmath.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetacontainer.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qmetaobject.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
@@ -174,6 +175,13 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/Qmediaplayer \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qaudio.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+  D:/Qt/6.5.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
@@ -403,4 +411,5 @@ E:/Survivor-Game/build/Survivor-Game-Main_autogen/EWIEGA46WW/moc_FightInterface.
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   E:/Survivor-Game/Survivor-Game-Main/Characters.h \
+  E:/Survivor-Game/Survivor-Game-Main/GameMap.h \
   E:/Survivor-Game/Survivor-Game-Main/Prop.h

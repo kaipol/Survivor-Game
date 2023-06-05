@@ -20,16 +20,14 @@ private:
 public slots:
     void get_end_type(int type); // 获取游戏结束类型
     void play_again();           // 再来一局
-    void restart_game();         // 重新开始游戏
 
 signals:
     void changeWidgetsignal(int Index); // 切换窗口信号
     void play_again_signal();           // 再来一局信号
-    void restart_game_signal();         // 重新开始游戏信号
 
 public:
     GameEndInterface(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *event);
 };
 
-#endif // GAMEENDINTERFACE_H
+#endif // OTHERINTERFACE_H

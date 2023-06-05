@@ -10,7 +10,6 @@
 #include <QTimer>
 #include <QMap>
 #include <QLabel>
-#include <Qmediaplayer>
 #include "Characters.h"
 #include "Prop.h"
 #include "GameMap.h"
@@ -87,9 +86,8 @@ private:
     QVector<QVector<int>>
         game_map;                  // 游戏地图
     QVector<QRect> obstacle_rects; // 障碍物矩形
-    QPushButton *savebutton;       // 保存按钮
     QPushButton *backbutton;       // 返回按钮
-    QMediaPlayer *bgm;             // 背景音乐
+    QPushButton *savebutton;       // 保存按钮
 };
 
 #endif // FightInterface_H

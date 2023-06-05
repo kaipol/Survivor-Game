@@ -10,7 +10,7 @@ class SelectHeroesInterface : public QWidget
 {
     Q_OBJECT
 public slots:
-    void hero_to_fight(int type); // 英雄进入战斗界面
+    void hero_to_fight(int type);
 
 signals:
     void changeWidgetsignal(int Index);  // 切换窗口信号
@@ -36,8 +36,6 @@ private:
     QPushButton *select_map1; // 选择地图1
     QPushButton *select_map2; // 选择地图2
     QPushButton *select_map3; // 选择地图3
-
-    QPainter *pen; // 画笔
     QMediaPlayer *bgm_select;
 };
 #endif // SELECTHEROES_H

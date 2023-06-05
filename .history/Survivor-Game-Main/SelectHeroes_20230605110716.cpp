@@ -31,16 +31,16 @@ SelectHeroesInterface::SelectHeroesInterface(QWidget *parent) : QWidget(parent)
     hero2_speed->setGeometry(690, 650, 200, 60);   // 速度显示位置
     hero2_speed->setStyleSheet("font: bold 25px"); // 设置字体
 
-    pen = new QPainter(this);                                                          // 画笔
-    (*pen).drawPixmap(130, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL001_001.png")); // 绘制人物
-    (*pen).drawPixmap(600, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL006_001.png")); // 绘制人物
+    pen = new QPainter(this);                                                       // 画笔
+    pen.drawPixmap(130, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL001_001.png")); // 绘制人物
+    pen.drawPixmap(600, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL006_001.png")); // 绘制人物
 
     select_map1 = new QPushButton("选择地图1", this); // 选择地图1
-    select_map1->setGeometry(400, 500, 100, 50);      // 选择地图1位置
+    select_map1->setGeometry(400, 500, 100, 30);      // 选择地图1位置
     select_map2 = new QPushButton("选择地图2", this); // 选择地图2
-    select_map2->setGeometry(400, 550, 100, 50);      // 选择地图2位置
+    select_map2->setGeometry(400, 550, 100, 30);      // 选择地图2位置
     select_map3 = new QPushButton("选择地图3", this); // 选择地图3
-    select_map3->setGeometry(400, 600, 100, 50);      // 选择地图3位置
+    select_map3->setGeometry(400, 600, 100, 30);      // 选择地图3位置
     select_map1->hide();
     select_map2->hide();
     select_map3->hide();
@@ -48,7 +48,7 @@ SelectHeroesInterface::SelectHeroesInterface(QWidget *parent) : QWidget(parent)
 
 void SelectHeroesInterface::paintEvent(QPaintEvent *event)
 {
-    (*pen).drawPixmap(-125, -100, 1250, 1000, QPixmap("../src/Sprite/BBG_002.png")); // 绘制背景
+    pen.drawPixmap(-125, -100, 1250, 1000, QPixmap("../src/Sprite/BBG_002.png")); // 绘制背景
 }
 
 void SelectHeroesInterface::hero_to_fight(int type)
@@ -64,35 +64,4 @@ void SelectHeroesInterface::hero_to_fight(int type)
     default:
         break;
     }
-    select_hero1->hide();
-    select_hero2->hide();
-    hero1_hp->hide();
-    hero1_atk->hide();
-    hero1_speed->hide();
-    hero2_hp->hide();
-    hero2_atk->hide();
-    hero2_speed->hide();
-    select_map1->show();
-    select_map2->show();
-    select_map3->show();
-}
-
-void SelectHeroesInterface::select_map(int type)
-{
-    switch (type)
-    {
-    case 1:
-        emit selectMapsignal(1);
-        break;
-    case 2:
-        emit selectMapsignal(2);
-        break;
-    case 3:
-        emit selectMapsignal(3);
-        break;
-    default:
-        break;
-    }
-    this->hide();
-    emit changeWidgetsignal(3);
 }

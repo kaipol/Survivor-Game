@@ -10,12 +10,12 @@ class SelectHeroesInterface : public QWidget
 {
     Q_OBJECT
 public slots:
-    void hero_to_fight(int type); // 英雄进入战斗界面
+    void hero_to_fight(int type);
+    void selectMapsignal(int type); // 切换地图信号
 
 signals:
     void changeWidgetsignal(int Index);  // 切换窗口信号
     void selectHerosignal(QString name); // 切换英雄信号
-    void selectMapsignal(int type);      // 切换地图信号
 
 public:
     SelectHeroesInterface(QWidget *parent = nullptr);

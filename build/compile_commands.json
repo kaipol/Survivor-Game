@@ -31,6 +31,11 @@
 },
 {
   "directory": "E:/Survivor-Game/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IE:/Survivor-Game/build/Survivor-Game-Main_autogen/include -isystem D:/Qt/6.5.0/mingw_64/include/QtCore -isystem D:/Qt/6.5.0/mingw_64/include -isystem D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.5.0/mingw_64/include/QtMultimedia -isystem D:/Qt/6.5.0/mingw_64/include/QtGui -isystem D:/Qt/6.5.0/mingw_64/include/QtNetwork -isystem D:/Qt/6.5.0/mingw_64/include/QtWidgets -g -std=gnu++17 -o CMakeFiles\\Survivor-Game-Main.dir\\GameMap.cpp.obj -c E:\\Survivor-Game\\Survivor-Game-Main\\GameMap.cpp",
+  "file": "E:\\Survivor-Game\\Survivor-Game-Main\\GameMap.cpp"
+},
+{
+  "directory": "E:/Survivor-Game/build",
   "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IE:/Survivor-Game/build/Survivor-Game-Main_autogen/include -isystem D:/Qt/6.5.0/mingw_64/include/QtCore -isystem D:/Qt/6.5.0/mingw_64/include -isystem D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.5.0/mingw_64/include/QtMultimedia -isystem D:/Qt/6.5.0/mingw_64/include/QtGui -isystem D:/Qt/6.5.0/mingw_64/include/QtNetwork -isystem D:/Qt/6.5.0/mingw_64/include/QtWidgets -g -std=gnu++17 -o CMakeFiles\\Survivor-Game-Main.dir\\FightInterface.cpp.obj -c E:\\Survivor-Game\\Survivor-Game-Main\\FightInterface.cpp",
   "file": "E:\\Survivor-Game\\Survivor-Game-Main\\FightInterface.cpp"
 },

@@ -29,12 +29,25 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     savebutton->setGeometry(810, 0, 90, 30);                                         // 设置保存按钮位置
     connect(savebutton, &QPushButton::clicked, this, &FightInterface::save_data);    // 保存按钮连接
     connect(backbutton, &QPushButton::clicked, this, &FightInterface::back_to_main); // 返回按钮连接
-}
 
-void FightInterface::get_map_type(int type)
-{
-    game_map_widget = new GameMap(type); // 游戏地图初始化
-    game_map = game_map_widget->getMap();
+    game_map = {
+        {0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, // 1
+        {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0}, // 2
+        {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0}, // 3
+        {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0}, // 4
+        {0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0}, // 5
+        {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 6
+        {0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0}, // 7
+        {0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0}, // 8
+        {0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0}, // 9
+        {0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 10
+        {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 11
+        {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 12
+        {0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0}, // 13
+        {0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 14
+        {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0}, // 15
+        {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0}, // 16
+    };
     create_obstacle_rects(); // 障碍物初始化
 }
 
@@ -451,7 +464,7 @@ void FightInterface::bullet_move()
             }
             else if (hero_rect.intersects(next_rect))
             {
-                int revival_time = hero->get_hero_revival_times();
+                int revival_time = hero->get_revival_time();
                 hero->set_blood(hero->get_blood() - Monsters_all[i]->get_monster_close_attack());
                 hero_hp_label->setText("血量: " + QString::number(hero->get_blood()));
                 if (hero->get_blood() <= 0 && revival_time == 0)
@@ -567,7 +580,7 @@ void FightInterface::hero_level_up()
 {
     int exp = hero->get_hero_exp();
     int level = hero->get_hero_level();
-    if ((exp == 10 && level == 1) || (exp == 20 && level == 2) || (exp == 30 && level == 3) || (exp == 40 && level == 4))
+    if ((exp == 10 && level == 1) || (exp == 20 && level == 2) || (exp == 30 && level == 3))
     {
         hero->set_hero_exp(0), hero->set_hero_level(level);
         level++;

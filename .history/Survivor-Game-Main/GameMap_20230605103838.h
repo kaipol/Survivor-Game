@@ -1,0 +1,3 @@
+#include<QVector>
+
+class

@@ -10,17 +10,17 @@ class SelectHeroesInterface : public QWidget
 {
     Q_OBJECT
 public slots:
-    void hero_to_fight(int type); // 英雄进入战斗界面
+    void hero1_to_fight();
+    void hero2_to_fight();
 
 signals:
     void changeWidgetsignal(int Index);  // 切换窗口信号
     void selectHerosignal(QString name); // 切换英雄信号
-    void selectMapsignal(int type);      // 切换地图信号
 
 public:
     SelectHeroesInterface(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *event);
-    void select_map(int type);
+    void select_map();
 
 private:
     QPushButton *select_hero1; // 英雄1
@@ -36,8 +36,6 @@ private:
     QPushButton *select_map1; // 选择地图1
     QPushButton *select_map2; // 选择地图2
     QPushButton *select_map3; // 选择地图3
-
-    QPainter *pen; // 画笔
     QMediaPlayer *bgm_select;
 };
 #endif // SELECTHEROES_H

@@ -10,10 +10,8 @@
 #include <QTimer>
 #include <QMap>
 #include <QLabel>
-#include <Qmediaplayer>
 #include "Characters.h"
 #include "Prop.h"
-#include "GameMap.h"
 
 class FightInterface : public QWidget
 {
@@ -45,7 +43,7 @@ public slots:
     void get_prop_type(int);                     // 获取道具类型信号
     void get_data(Heroes);                       // 获取存档信号
     void continue_game();                        // 继续游戏
-    void get_map_type(int);
+    void get_map(int);
 
 signals:
     void changeWidgetsignal(int Index);  // 切换窗口信号
@@ -83,13 +81,11 @@ private:
     int remain_sec;                // 剩余秒数
     QLabel *time_label;            // 时间显示
 
-    GameMap *game_map_widget; // 游戏地图
     QVector<QVector<int>>
         game_map;                  // 游戏地图
     QVector<QRect> obstacle_rects; // 障碍物矩形
-    QPushButton *savebutton;       // 保存按钮
     QPushButton *backbutton;       // 返回按钮
-    QMediaPlayer *bgm;             // 背景音乐
+    QPushButton *savebutton;       // 保存按钮
 };
 
 #endif // FightInterface_H

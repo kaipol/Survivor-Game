@@ -33,8 +33,15 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
 
 void FightInterface::get_map_type(int type)
 {
-    game_map_widget = new GameMap(type); // 游戏地图初始化
-    game_map = game_map_widget->getMap();
+    switch (type)
+    {
+    case /* constant-expression */:
+        /* code */
+        break;
+
+    default:
+        break;
+    }
     create_obstacle_rects(); // 障碍物初始化
 }
 
@@ -567,7 +574,7 @@ void FightInterface::hero_level_up()
 {
     int exp = hero->get_hero_exp();
     int level = hero->get_hero_level();
-    if ((exp == 10 && level == 1) || (exp == 20 && level == 2) || (exp == 30 && level == 3) || (exp == 40 && level == 4))
+    if ((exp == 10 && level == 1) || (exp == 20 && level == 2) || (exp == 30 && level == 3))
     {
         hero->set_hero_exp(0), hero->set_hero_level(level);
         level++;

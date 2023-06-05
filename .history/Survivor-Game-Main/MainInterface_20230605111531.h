@@ -31,7 +31,7 @@ public:
     void startGame();                    // 开始游戏
     void enter_shop();                   // 进入商店
     void continue_game();                // 继续游戏
-    void again_game();                   // 继续开始游戏
+    void restart_game();                 // 重新开始游戏
 
 public slots:
     void is_started(); // 确定是否开始游戏

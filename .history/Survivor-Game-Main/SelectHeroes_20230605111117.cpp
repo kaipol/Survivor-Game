@@ -36,11 +36,11 @@ SelectHeroesInterface::SelectHeroesInterface(QWidget *parent) : QWidget(parent)
     (*pen).drawPixmap(600, 150, 300, 350, QPixmap("../src/Sprite/MCH_PL006_001.png")); // 绘制人物
 
     select_map1 = new QPushButton("选择地图1", this); // 选择地图1
-    select_map1->setGeometry(400, 500, 100, 50);      // 选择地图1位置
+    select_map1->setGeometry(400, 500, 100, 30);      // 选择地图1位置
     select_map2 = new QPushButton("选择地图2", this); // 选择地图2
-    select_map2->setGeometry(400, 550, 100, 50);      // 选择地图2位置
+    select_map2->setGeometry(400, 550, 100, 30);      // 选择地图2位置
     select_map3 = new QPushButton("选择地图3", this); // 选择地图3
-    select_map3->setGeometry(400, 600, 100, 50);      // 选择地图3位置
+    select_map3->setGeometry(400, 600, 100, 30);      // 选择地图3位置
     select_map1->hide();
     select_map2->hide();
     select_map3->hide();

@@ -47,11 +47,12 @@ static constexpr auto qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS = Qt
     "name",
     "selectMapsignal",
     "type",
-    "hero_to_fight"
+    "hero_to_fight",
+    "restart_select"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS_t {
-    uint offsetsAndSizes[18];
+    uint offsetsAndSizes[20];
     char stringdata0[22];
     char stringdata1[19];
     char stringdata2[1];
@@ -61,6 +62,7 @@ struct qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS_t {
     char stringdata6[16];
     char stringdata7[5];
     char stringdata8[14];
+    char stringdata9[15];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -74,7 +76,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS_t
         QT_MOC_LITERAL(65, 4),  // "name"
         QT_MOC_LITERAL(70, 15),  // "selectMapsignal"
         QT_MOC_LITERAL(86, 4),  // "type"
-        QT_MOC_LITERAL(91, 13)   // "hero_to_fight"
+        QT_MOC_LITERAL(91, 13),  // "hero_to_fight"
+        QT_MOC_LITERAL(105, 14)   // "restart_select"
     },
     "SelectHeroesInterface",
     "changeWidgetsignal",
@@ -84,7 +87,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSelectHeroesInterfaceENDCLASS_t
     "name",
     "selectMapsignal",
     "type",
-    "hero_to_fight"
+    "hero_to_fight",
+    "restart_select"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -96,7 +100,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSelectHeroesInterfaceENDCLASS[] 
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -104,12 +108,13 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSelectHeroesInterfaceENDCLASS[] 
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   38,    2, 0x06,    1 /* Public */,
-       4,    1,   41,    2, 0x06,    3 /* Public */,
-       6,    1,   44,    2, 0x06,    5 /* Public */,
+       1,    1,   44,    2, 0x06,    1 /* Public */,
+       4,    1,   47,    2, 0x06,    3 /* Public */,
+       6,    1,   50,    2, 0x06,    5 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       8,    1,   47,    2, 0x0a,    7 /* Public */,
+       8,    1,   53,    2, 0x0a,    7 /* Public */,
+       9,    0,   56,    2, 0x0a,    9 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -118,6 +123,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSelectHeroesInterfaceENDCLASS[] 
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -142,7 +148,9 @@ Q_CONSTINIT const QMetaObject SelectHeroesInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'hero_to_fight'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'restart_select'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -157,6 +165,7 @@ void SelectHeroesInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 1: _t->selectHerosignal((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: _t->selectMapsignal((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 3: _t->hero_to_fight((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 4: _t->restart_select(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -204,13 +213,13 @@ int SelectHeroesInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }

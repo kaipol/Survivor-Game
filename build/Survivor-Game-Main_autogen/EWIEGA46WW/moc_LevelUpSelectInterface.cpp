@@ -43,16 +43,18 @@ static constexpr auto qt_meta_stringdata_CLASSLevelUpSelectInterfaceENDCLASS = Q
     "change_type",
     "",
     "changeWidgetsignal",
-    "back_to_fight"
+    "back_to_fight",
+    "prop_generate"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSLevelUpSelectInterfaceENDCLASS_t {
-    uint offsetsAndSizes[10];
+    uint offsetsAndSizes[12];
     char stringdata0[23];
     char stringdata1[12];
     char stringdata2[1];
     char stringdata3[19];
     char stringdata4[14];
+    char stringdata5[14];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSLevelUpSelectInterfaceENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -62,13 +64,15 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSLevelUpSelectInterfaceENDCLASS_
         QT_MOC_LITERAL(23, 11),  // "change_type"
         QT_MOC_LITERAL(35, 0),  // ""
         QT_MOC_LITERAL(36, 18),  // "changeWidgetsignal"
-        QT_MOC_LITERAL(55, 13)   // "back_to_fight"
+        QT_MOC_LITERAL(55, 13),  // "back_to_fight"
+        QT_MOC_LITERAL(69, 13)   // "prop_generate"
     },
     "LevelUpSelectInterface",
     "change_type",
     "",
     "changeWidgetsignal",
-    "back_to_fight"
+    "back_to_fight",
+    "prop_generate"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -80,7 +84,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLevelUpSelectInterfaceENDCLASS[]
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -88,17 +92,19 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLevelUpSelectInterfaceENDCLASS[]
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   32,    2, 0x06,    1 /* Public */,
-       3,    1,   35,    2, 0x06,    3 /* Public */,
+       1,    1,   38,    2, 0x06,    1 /* Public */,
+       3,    1,   41,    2, 0x06,    3 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       4,    0,   38,    2, 0x0a,    5 /* Public */,
+       4,    0,   44,    2, 0x0a,    5 /* Public */,
+       5,    0,   45,    2, 0x0a,    6 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, QMetaType::Int,    2,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -120,6 +126,8 @@ Q_CONSTINIT const QMetaObject LevelUpSelectInterface::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'back_to_fight'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'prop_generate'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -134,6 +142,7 @@ void LevelUpSelectInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _
         case 0: _t->change_type((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 1: _t->changeWidgetsignal((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 2: _t->back_to_fight(); break;
+        case 3: _t->prop_generate(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -174,13 +183,13 @@ int LevelUpSelectInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
 }

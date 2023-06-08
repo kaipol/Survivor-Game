@@ -179,7 +179,7 @@ void FightInterface::keyPressEvent(QKeyEvent *event)
             }
             else if (drop_props[i][2] == 1)
             {
-                coin += 2;
+                coin += 3;
                 coin_label->setText("金币数:" + QString::number(hero->get_hero_coin()));
             }
             else if (drop_props[i][2] == 2)

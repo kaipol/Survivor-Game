@@ -179,7 +179,7 @@ void FightInterface::keyPressEvent(QKeyEvent *event)
             }
             else if (drop_props[i][2] == 1)
             {
-                coin += 2;
+                coin += 3;
                 coin_label->setText("金币数:" + QString::number(hero->get_hero_coin()));
             }
             else if (drop_props[i][2] == 2)
@@ -812,7 +812,7 @@ void FightInterface::drop_prop(int x, int y)
     else if (type < 100)
     {
         drop_props.push_back({x, y, 2});
-        drop_prop_pic.push_back(QPixmap("../src/Sprite/speed_potion.png"));
+        drop_prop_pic.push_back(QPixmap("../src/Sprite/attack_potion.png"));
     }
 }
 

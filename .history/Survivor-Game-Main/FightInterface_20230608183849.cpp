@@ -172,19 +172,19 @@ void FightInterface::keyPressEvent(QKeyEvent *event)
         {
             if (drop_props[i][2] == 0)
             {
-                hero->set_blood(hero->get_blood() + 1);
+                hero->set_blood(hero->get_blood() + 3);
                 if (hero->get_blood() > hero->get_blood_max())
                     hero->set_blood(hero->get_blood_max());
                 hero_hp_label->setText("血量:" + QString::number(hero->get_blood()));
             }
             else if (drop_props[i][2] == 1)
             {
-                coin += 2;
+                coin += 5;
                 coin_label->setText("金币数:" + QString::number(hero->get_hero_coin()));
             }
             else if (drop_props[i][2] == 2)
             {
-                hero->set_speed(hero->get_speed() + 3);
+                hero->set_bullet_attack(hero->get_bullet_attack() + 1);
             }
             drop_props.remove(i);
             break;
@@ -798,21 +798,21 @@ void FightInterface::get_prop_type(int type)
 
 void FightInterface::drop_prop(int x, int y)
 {
-    int type = rand() % 100;
+    int type = rand() % 30;
     if (type < 10)
     {
         drop_props.push_back({x, y, 0});
         drop_prop_pic.push_back(QPixmap("../src/Sprite/hp_potion.png"));
     }
-    else if (type < 80)
+    else if (type < 20)
     {
         drop_props.push_back({x, y, 1});
         drop_prop_pic.push_back(QPixmap("../src/Sprite/coin.png"));
     }
-    else if (type < 100)
+    else if (type < 30)
     {
         drop_props.push_back({x, y, 2});
-        drop_prop_pic.push_back(QPixmap("../src/Sprite/speed_potion.png"));
+        drop_prop_pic.push_back(QPixmap("../src/Sprite/attack_potion.png"));
     }
 }
 

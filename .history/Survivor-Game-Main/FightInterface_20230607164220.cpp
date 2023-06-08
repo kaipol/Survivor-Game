@@ -31,7 +31,6 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     connect(backbutton, &QPushButton::clicked, this, &FightInterface::back_to_main); // 返回按钮连接
     bgm = new QMediaPlayer(this);                                                    // 背景音乐初始化
     bgm->setSource(QUrl::fromLocalFile("../src/bgm/FightBgm.mp3"));
-    
 }
 
 void FightInterface::get_map_type(int type)
@@ -168,28 +167,6 @@ void FightInterface::keyPressEvent(QKeyEvent *event)
     for (int i = 0; i < drop_props.size(); i++)
     {
         QRect prop_rect(drop_props[i][0], drop_props[i][1], 10, 10);
-        QRect hero_rect(hero_loc[0], hero_loc[1], 40, 40);
-        if (prop_rect.intersects(hero_rect))
-        {
-            if (drop_props[i][2] == 0)
-            {
-                hero->set_blood(hero->get_blood() + 3);
-                if (hero->get_blood() > hero->get_blood_max())
-                    hero->set_blood(hero->get_blood_max());
-                hero_hp_label->setText("血量:" + QString::number(hero->get_blood()));
-            }
-            else if (drop_props[i][2] == 1)
-            {
-                coin += 5;
-                coin_label->setText("金币数:" + QString::number(hero->get_hero_coin()));
-            }
-            else if (drop_props[i][2] == 2)
-            {
-                hero->set_bullet_attack(hero->get_bullet_attack() + 1);
-            }
-            drop_props.remove(i);
-            break;
-        }
     }
     update();
 }
@@ -428,10 +405,9 @@ void FightInterface::monsters_hit(int i, int j)
         coin_label->setText("金币数:" + QString::number(coin));
         hero->set_hero_exp(hero->get_hero_exp() + Monsters_all[j]->get_monster_kill_exp() + base_kill_exp);
         hero_level_up();
-        int y = 0, x = 0;
         while (1)
         {
-            y = rand() % 16, x = rand() % 20; // 怪物位置随机生成
+            int y = rand() % 16, x = rand() % 20; // 怪物位置随机生成
             if (game_map[y][x] == 0)
             {
                 Monsters_all[j]->set_loc(x * 50 + 10, y * 50 + 10);
@@ -441,7 +417,7 @@ void FightInterface::monsters_hit(int i, int j)
         Monsters_all[j]->get_hp_label()->setText("血量:" + QString::number(Monsters_all[j]->get_blood_max())); // 血量显示
         int ans = rand() % 100;
         if (ans <= 10)
-            drop_prop(x * 50 + 10, y * 50 + 10);
+            drop_prop();
     }
     else if (Monsters_all[j]->get_blood() > 0)
     {
@@ -797,24 +773,8 @@ void FightInterface::get_prop_type(int type)
     }
 }
 
-void FightInterface::drop_prop(int x, int y)
+void FightInterface::drop_prop()
 {
-    int type = rand() % 30;
-    if (type < 10)
-    {
-        drop_props.push_back({x, y, 0});
-        drop_prop_pic.push_back(QPixmap("../src/Sprite/hp_potion.png"));
-    }
-    else if (type < 20)
-    {
-        drop_props.push_back({x, y, 1});
-        drop_prop_pic.push_back(QPixmap("../src/Sprite/coin.png"));
-    }
-    else if (type < 30)
-    {
-        drop_props.push_back({x, y, 2});
-        drop_prop_pic.push_back(QPixmap("../src/Sprite/attack_potion.png"));
-    }
 }
 
 void FightInterface::get_coin(int coin1)

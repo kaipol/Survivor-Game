@@ -29,7 +29,7 @@ public:
     void create_obstacle_rects();        // 创建障碍物矩形
     void monsters_hit(int i, int j);     // 重新生成怪物
     void game_end();                     // 游戏结束
-    void drop_prop(int, int);            // 掉落道具
+    void drop_prop();
 
 public slots:
     void keyPressEvent(QKeyEvent *event); // 键盘按下事件

@@ -29,7 +29,7 @@ public:
     void create_obstacle_rects();        // 创建障碍物矩形
     void monsters_hit(int i, int j);     // 重新生成怪物
     void game_end();                     // 游戏结束
-    void drop_prop(int, int);            // 掉落道具
+    void drop_prop();
 
 public slots:
     void keyPressEvent(QKeyEvent *event); // 键盘按下事件
@@ -94,7 +94,7 @@ private:
     GameMap *game_map_widget; // 游戏地图
     QVector<QVector<int>>
         game_map;                     // 游戏地图
-    QVector<QVector<int>> drop_props; // 掉落道具 0:x 1:y 2:道具类型: 0:回复3HP 1:金币+5 2:攻击+1
+    QVector<QVector<int>> drop_props; // 掉落道具 0:x 1:y 2:道具类型
     QVector<QPixmap> drop_prop_pic;
     QVector<QRect> obstacle_rects; // 障碍物矩形
     QPushButton *savebutton;       // 保存按钮

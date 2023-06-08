@@ -31,7 +31,6 @@ FightInterface::FightInterface(QWidget *parent) : QWidget(parent)
     connect(backbutton, &QPushButton::clicked, this, &FightInterface::back_to_main); // 返回按钮连接
     bgm = new QMediaPlayer(this);                                                    // 背景音乐初始化
     bgm->setSource(QUrl::fromLocalFile("../src/bgm/FightBgm.mp3"));
-    
 }
 
 void FightInterface::get_map_type(int type)

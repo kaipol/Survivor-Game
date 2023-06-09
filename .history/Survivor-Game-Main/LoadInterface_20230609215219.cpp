@@ -48,94 +48,103 @@ void LoadInterface::get_save_date(Heroes hero)
 void LoadInterface::update_info()
 {
     // 存档1
-    load_info_label_name = new QLabel("角色名：" + hero_mir->get_name(), this); // 加载存档信息标签初始化
-    load_info_label_name->setGeometry(90, 230, 300, 50);                        // 设置加载存档信息标签位置
-    load_info_label_name->setStyleSheet("font:bold 20px;");
-    load_info_label_name->show();
-    load_info_label_hp = new QLabel("当前血量：" + QString::number(hero_mir->get_blood()), this);
-    load_info_label_hp->setGeometry(90, 280, 300, 50);
-    load_info_label_hp->setStyleSheet("font:bold 20px;");
-    load_info_label_hp->show();
-    load_info_label_atk = new QLabel("攻击力：" + QString::number(hero_mir->get_bullet_attack()), this);
-    load_info_label_atk->setGeometry(90, 330, 300, 50);
-    load_info_label_atk->setStyleSheet("font:bold 20px;");
-    load_info_label_atk->show();
-    load_info_label_spd = new QLabel("当前速度：" + QString::number(hero_mir->get_speed()), this);
-    load_info_label_spd->setGeometry(90, 380, 300, 50);
-    load_info_label_spd->setStyleSheet("font:bold 20px;");
-    load_info_label_spd->show();
-    load_info_label_coin = new QLabel("当前金币数：" + QString::number(hero_mir->get_hero_coin()), this);
-    load_info_label_coin->setGeometry(90, 430, 300, 50);
-    load_info_label_coin->setStyleSheet("font:bold 20px;");
-    load_info_label_coin->show();
-    load_info_label_level = new QLabel("当前等级：" + QString::number(hero_mir->get_hero_level()), this);
-    load_info_label_level->setGeometry(90, 480, 300, 50);
-    load_info_label_level->setStyleSheet("font:bold 20px;");
-    load_info_label_level->show();
-    load_info_label_revival = new QLabel("当前复活次数：" + QString::number(hero_mir->get_hero_revival_times()), this);
-    load_info_label_revival->setGeometry(90, 530, 300, 50);
-    load_info_label_revival->setStyleSheet("font:bold 20px;");
-    load_info_label_revival->show();
+    if (!is_null)
+    {
+        load_info_label_name = new QLabel("角色名：" + hero_mir->get_name(), this); // 加载存档信息标签初始化
+        load_info_label_name->setGeometry(90, 230, 300, 50);                        // 设置加载存档信息标签位置
+        load_info_label_name->setStyleSheet("font:bold 20px;");
+        load_info_label_name->show();
+        load_info_label_hp = new QLabel("当前血量：" + QString::number(hero_mir->get_blood()), this);
+        load_info_label_hp->setGeometry(90, 280, 300, 50);
+        load_info_label_hp->setStyleSheet("font:bold 20px;");
+        load_info_label_hp->show();
+        load_info_label_atk = new QLabel("攻击力：" + QString::number(hero_mir->get_bullet_attack()), this);
+        load_info_label_atk->setGeometry(90, 330, 300, 50);
+        load_info_label_atk->setStyleSheet("font:bold 20px;");
+        load_info_label_atk->show();
+        load_info_label_spd = new QLabel("当前速度：" + QString::number(hero_mir->get_speed()), this);
+        load_info_label_spd->setGeometry(90, 380, 300, 50);
+        load_info_label_spd->setStyleSheet("font:bold 20px;");
+        load_info_label_spd->show();
+        load_info_label_coin = new QLabel("当前金币数：" + QString::number(hero_mir->get_hero_coin()), this);
+        load_info_label_coin->setGeometry(90, 430, 300, 50);
+        load_info_label_coin->setStyleSheet("font:bold 20px;");
+        load_info_label_coin->show();
+        load_info_label_level = new QLabel("当前等级：" + QString::number(hero_mir->get_hero_level()), this);
+        load_info_label_level->setGeometry(90, 480, 300, 50);
+        load_info_label_level->setStyleSheet("font:bold 20px;");
+        load_info_label_level->show();
+        load_info_label_revival = new QLabel("当前复活次数：" + QString::number(hero_mir->get_hero_revival_times()), this);
+        load_info_label_revival->setGeometry(90, 530, 300, 50);
+        load_info_label_revival->setStyleSheet("font:bold 20px;");
+        load_info_label_revival->show();
+    }
 
     // 存档2
-    load_info_label_name2 = new QLabel("角色名：" + hero_mir2->get_name(), this); // 加载存档信息标签初始化
-    load_info_label_name2->setGeometry(400, 230, 300, 50);                        // 设置加载存档信息标签位置
-    load_info_label_name2->setStyleSheet("font:bold 20px;");
-    load_info_label_name2->show();
-    load_info_label_hp2 = new QLabel("当前血量：" + QString::number(hero_mir2->get_blood()), this);
-    load_info_label_hp2->setGeometry(400, 280, 300, 50);
-    load_info_label_hp2->setStyleSheet("font:bold 20px;");
-    load_info_label_hp2->show();
-    load_info_label_atk2 = new QLabel("攻击力：" + QString::number(hero_mir2->get_bullet_attack()), this);
-    load_info_label_atk2->setGeometry(400, 330, 300, 50);
-    load_info_label_atk2->setStyleSheet("font:bold 20px;");
-    load_info_label_atk2->show();
-    load_info_label_spd2 = new QLabel("当前速度：" + QString::number(hero_mir2->get_speed()), this);
-    load_info_label_spd2->setGeometry(400, 380, 300, 50);
-    load_info_label_spd2->setStyleSheet("font:bold 20px;");
-    load_info_label_spd2->show();
-    load_info_label_coin2 = new QLabel("当前金币数：" + QString::number(hero_mir2->get_hero_coin()), this);
-    load_info_label_coin2->setGeometry(400, 430, 300, 50);
-    load_info_label_coin2->setStyleSheet("font:bold 20px;");
-    load_info_label_coin2->show();
-    load_info_label_level2 = new QLabel("当前等级：" + QString::number(hero_mir2->get_hero_level()), this);
-    load_info_label_level2->setGeometry(400, 480, 300, 50);
-    load_info_label_level2->setStyleSheet("font:bold 20px;");
-    load_info_label_level2->show();
-    load_info_label_revival2 = new QLabel("当前复活次数：" + QString::number(hero_mir2->get_hero_revival_times()), this);
-    load_info_label_revival2->setGeometry(400, 530, 300, 50);
-    load_info_label_revival2->setStyleSheet("font:bold 20px;");
-    load_info_label_revival2->show();
+    if (!is_null2)
+    {
+        load_info_label_name2 = new QLabel("角色名：" + hero_mir2->get_name(), this); // 加载存档信息标签初始化
+        load_info_label_name2->setGeometry(400, 230, 300, 50);                        // 设置加载存档信息标签位置
+        load_info_label_name2->setStyleSheet("font:bold 20px;");
+        load_info_label_name2->show();
+        load_info_label_hp2 = new QLabel("当前血量：" + QString::number(hero_mir2->get_blood()), this);
+        load_info_label_hp2->setGeometry(400, 280, 300, 50);
+        load_info_label_hp2->setStyleSheet("font:bold 20px;");
+        load_info_label_hp2->show();
+        load_info_label_atk2 = new QLabel("攻击力：" + QString::number(hero_mir2->get_bullet_attack()), this);
+        load_info_label_atk2->setGeometry(400, 330, 300, 50);
+        load_info_label_atk2->setStyleSheet("font:bold 20px;");
+        load_info_label_atk2->show();
+        load_info_label_spd2 = new QLabel("当前速度：" + QString::number(hero_mir2->get_speed()), this);
+        load_info_label_spd2->setGeometry(400, 380, 300, 50);
+        load_info_label_spd2->setStyleSheet("font:bold 20px;");
+        load_info_label_spd2->show();
+        load_info_label_coin2 = new QLabel("当前金币数：" + QString::number(hero_mir2->get_hero_coin()), this);
+        load_info_label_coin2->setGeometry(400, 430, 300, 50);
+        load_info_label_coin2->setStyleSheet("font:bold 20px;");
+        load_info_label_coin2->show();
+        load_info_label_level2 = new QLabel("当前等级：" + QString::number(hero_mir2->get_hero_level()), this);
+        load_info_label_level2->setGeometry(400, 480, 300, 50);
+        load_info_label_level2->setStyleSheet("font:bold 20px;");
+        load_info_label_level2->show();
+        load_info_label_revival2 = new QLabel("当前复活次数：" + QString::number(hero_mir2->get_hero_revival_times()), this);
+        load_info_label_revival2->setGeometry(400, 530, 300, 50);
+        load_info_label_revival2->setStyleSheet("font:bold 20px;");
+        load_info_label_revival2->show();
+    }
 
     // 存档3
-    load_info_label_name3 = new QLabel("角色名：" + hero_mir3->get_name(), this); // 加载存档信息标签初始化
-    load_info_label_name3->setGeometry(730, 230, 300, 50);                        // 设置加载存档信息标签位置
-    load_info_label_name3->setStyleSheet("font:bold 20px;");
-    load_info_label_name3->show();
-    load_info_label_hp3 = new QLabel("当前血量：" + QString::number(hero_mir3->get_blood()), this);
-    load_info_label_hp3->setGeometry(730, 280, 300, 50);
-    load_info_label_hp3->setStyleSheet("font:bold 20px;");
-    load_info_label_hp3->show();
-    load_info_label_atk3 = new QLabel("攻击力：" + QString::number(hero_mir3->get_bullet_attack()), this);
-    load_info_label_atk3->setGeometry(730, 330, 300, 50);
-    load_info_label_atk3->setStyleSheet("font:bold 20px;");
-    load_info_label_atk3->show();
-    load_info_label_spd3 = new QLabel("当前速度：" + QString::number(hero_mir3->get_speed()), this);
-    load_info_label_spd3->setGeometry(730, 380, 300, 50);
-    load_info_label_spd3->setStyleSheet("font:bold 20px;");
-    load_info_label_spd3->show();
-    load_info_label_coin3 = new QLabel("当前金币数：" + QString::number(hero_mir3->get_hero_coin()), this);
-    load_info_label_coin3->setGeometry(730, 430, 300, 50);
-    load_info_label_coin3->setStyleSheet("font:bold 20px;");
-    load_info_label_coin3->show();
-    load_info_label_level3 = new QLabel("当前等级：" + QString::number(hero_mir3->get_hero_level()), this);
-    load_info_label_level3->setGeometry(730, 480, 300, 50);
-    load_info_label_level3->setStyleSheet("font:bold 20px;");
-    load_info_label_level3->show();
-    load_info_label_revival3 = new QLabel("当前复活次数：" + QString::number(hero_mir3->get_hero_revival_times()), this);
-    load_info_label_revival3->setGeometry(730, 530, 300, 50);
-    load_info_label_revival3->setStyleSheet("font:bold 20px;");
-    load_info_label_revival3->show();
+    if (!is_null3)
+    {
+        load_info_label_name3 = new QLabel("角色名：" + hero_mir3->get_name(), this); // 加载存档信息标签初始化
+        load_info_label_name3->setGeometry(730, 230, 300, 50);                        // 设置加载存档信息标签位置
+        load_info_label_name3->setStyleSheet("font:bold 20px;");
+        load_info_label_name3->show();
+        load_info_label_hp3 = new QLabel("当前血量：" + QString::number(hero_mir3->get_blood()), this);
+        load_info_label_hp3->setGeometry(730, 280, 300, 50);
+        load_info_label_hp3->setStyleSheet("font:bold 20px;");
+        load_info_label_hp3->show();
+        load_info_label_atk3 = new QLabel("攻击力：" + QString::number(hero_mir3->get_bullet_attack()), this);
+        load_info_label_atk3->setGeometry(730, 330, 300, 50);
+        load_info_label_atk3->setStyleSheet("font:bold 20px;");
+        load_info_label_atk3->show();
+        load_info_label_spd3 = new QLabel("当前速度：" + QString::number(hero_mir3->get_speed()), this);
+        load_info_label_spd3->setGeometry(730, 380, 300, 50);
+        load_info_label_spd3->setStyleSheet("font:bold 20px;");
+        load_info_label_spd3->show();
+        load_info_label_coin3 = new QLabel("当前金币数：" + QString::number(hero_mir3->get_hero_coin()), this);
+        load_info_label_coin3->setGeometry(730, 430, 300, 50);
+        load_info_label_coin3->setStyleSheet("font:bold 20px;");
+        load_info_label_coin3->show();
+        load_info_label_level3 = new QLabel("当前等级：" + QString::number(hero_mir3->get_hero_level()), this);
+        load_info_label_level3->setGeometry(730, 480, 300, 50);
+        load_info_label_level3->setStyleSheet("font:bold 20px;");
+        load_info_label_level3->show();
+        load_info_label_revival3 = new QLabel("当前复活次数：" + QString::number(hero_mir3->get_hero_revival_times()), this);
+        load_info_label_revival3->setGeometry(730, 530, 300, 50);
+        load_info_label_revival3->setStyleSheet("font:bold 20px;");
+        load_info_label_revival3->show();
+    }
 }
 
 void LoadInterface::is_main()
